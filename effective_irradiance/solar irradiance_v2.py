@@ -322,7 +322,7 @@ if all_angles_case:
     # np.save('Output_data/total_irradiance_for_all_angles',total_irradiance_for_all_angles)
 
 
-all_angles_case_fast = True
+all_angles_case_fast = False
 if all_angles_case_fast:
 
     tilt_angles = range(91)
@@ -370,47 +370,47 @@ if all_angles_case_fast:
 
 """# Optimal angle calculation"""
 #for all tilt angles werkt niet (OSError: 143488800 requested and 35056128 written)?
-# total_irradiance_for_all_angles = np.load('Output_data/total_irradiance_for_all_angles.npy')
+total_irradiance_for_all_angles = np.load('Output_data/total_irradiance_for_all_angles.npy')
 
 # #per tilt angle
-# tilt_angles = range(91)
-# total_irradiance_for_all_angles = np.zeros((len(tilt_angles),3,date_time.shape[0]))
-# for tilt_angle in range(len(tilt_angles)):
-#     total_irradiance_angle = np.load(f'Output_data/total_irradiance_per_angle/total_irradiance_for_tilt_angle_{tilt_angle}.npy')
-#     total_irradiance_for_all_angles[tilt_angle,:,:] = total_irradiance_angle
-#
-#
-# #integrate
-# #kWh/m^2
-# total_incoming_energy_for_all_angles = np.sum(total_irradiance_for_all_angles,axis=2)/60/1000
-# print(total_incoming_energy_for_all_angles.shape)
-# print(f'Optimal angle East: {np.argmax(total_incoming_energy_for_all_angles[:,0])} degrees')
-# print(f'Optimal angle South: {np.argmax(total_incoming_energy_for_all_angles[:,1])} degrees')
-# print(f'Optimal angle West: {np.argmax(total_incoming_energy_for_all_angles[:,2])} degrees')
-#
-# x=[i*10 for i in range(10)]
-# l=[10*i for i in x]
-# l=[]
-# for i in range(24):
-#       l.append("%s:00"%i)
-      # l.append(" ")
-#
-# plt.figure(figsize=(8, 6))  # Set the figure size
-# plt.xticks(x,x,fontsize=10)
-# plt.plot(total_incoming_energy_for_all_angles[:,0],label='East', color='blue')
-# plt.plot(total_incoming_energy_for_all_angles[:,1],label='South', color='red')
-# plt.plot(total_incoming_energy_for_all_angles[:,2], label='West', color='orange')
-# plt.xlim(left=0)
-# plt.ylim(bottom=0)
-# plt.title(f'Yearly solar energy yield in function of varying tilt angles')
-# plt.xlabel('Tilt angle [degrees]')
-# plt.ylabel('Solar incoming energy [kWh/m²]')
-# plt.legend()  # Add a legend
-# # plt.grid(True)  # Add a grid
-# plt.tight_layout()  # Fit the plot nicely into the figure
-# output_file_path = f'Output_data/figures/yearly_solar_energy_yield_per_angle'
-# # plt.savefig(output_file_path)
-# # plt.show()
+tilt_angles = range(91)
+total_irradiance_for_all_angles = np.zeros((len(tilt_angles),3,date_time.shape[0]))
+for tilt_angle in range(len(tilt_angles)):
+    total_irradiance_angle = np.load(f'Output_data/total_irradiance_per_angle/total_irradiance_for_tilt_angle_{tilt_angle}.npy')
+    total_irradiance_for_all_angles[tilt_angle,:,:] = total_irradiance_angle
+
+
+#integrate
+#kWh/m^2
+total_incoming_energy_for_all_angles = np.sum(total_irradiance_for_all_angles,axis=2)/60/1000
+print(total_incoming_energy_for_all_angles.shape)
+print(f'Optimal angle East: {np.argmax(total_incoming_energy_for_all_angles[:,0])} degrees')
+print(f'Optimal angle South: {np.argmax(total_incoming_energy_for_all_angles[:,1])} degrees')
+print(f'Optimal angle West: {np.argmax(total_incoming_energy_for_all_angles[:,2])} degrees')
+
+x=[i*10 for i in range(10)]
+l=[10*i for i in x]
+l=[]
+for i in range(24):
+      l.append("%s:00"%i)
+      l.append(" ")
+
+plt.figure(figsize=(8, 6))  # Set the figure size
+plt.xticks(x,x,fontsize=10)
+plt.plot(total_incoming_energy_for_all_angles[:,0],label='East', color='blue')
+plt.plot(total_incoming_energy_for_all_angles[:,1],label='South', color='red')
+plt.plot(total_incoming_energy_for_all_angles[:,2], label='West', color='orange')
+plt.xlim(left=0)
+plt.ylim(bottom=0)
+plt.title(f'Yearly solar energy yield in function of varying tilt angles')
+plt.xlabel('Tilt angle [degrees]')
+plt.ylabel('Solar incoming energy [kWh/m²]')
+plt.legend()  # Add a legend
+# plt.grid(True)  # Add a grid
+plt.tight_layout()  # Fit the plot nicely into the figure
+output_file_path = f'Output_data/figures/yearly_solar_energy_yield_per_angle'
+# plt.savefig(output_file_path)
+# plt.show()
 
 
 """#Plotting"""

@@ -321,45 +321,96 @@ if all_angles_case:
 
     # np.save('Output_data/total_irradiance_for_all_angles',total_irradiance_for_all_angles)
 
+
+all_angles_case_fast = True
+if all_angles_case_fast:
+
+    tilt_angles = range(91)
+    granularity = 1
+    time_steps = 365*24*granularity
+
+    total_irradiance_for_all_angles_fast = np.zeros((len(tilt_angles),3,time_steps))
+
+    for tilt_angle in tilt_angles:
+        total_irradiance = np.zeros((3,time_steps))
+        for i in range(time_steps):
+            exact_moment = date_time[i]
+            zenith_angle, azimuth_angle = get_sun_position(latitude,longitude,exact_moment)
+            GHI = global_horizontal_irradiance[i]
+            DHI = global_diffusive_irradiance[i]
+            total_irradiance_E, total_irradiance_S, total_irradiance_W = get_solar_irradiance(GHI,DHI,tilt_angle,tilt_angle,azimuth_angle,zenith_angle)
+            total_irradiance[0,i] = total_irradiance_E
+            total_irradiance[1,i] = total_irradiance_S
+            total_irradiance[2,i] = total_irradiance_W
+        total_irradiance_for_all_angles_fast[tilt_angle,:,:] = total_irradiance
+        print(f"Finished total irradiance calculations of tilt_angle {tilt_angle+1}/{len(tilt_angles)}")
+
+    total_incoming_energy_for_all_angles_fast = np.sum(total_irradiance_for_all_angles_fast,axis=2)*60*int(60/granularity)/3600/1000
+    print(f'Optimal angle East: {np.argmax(total_incoming_energy_for_all_angles_fast[:,0])} degrees')
+    print(f'Optimal angle South: {np.argmax(total_incoming_energy_for_all_angles_fast[:,1])} degrees')
+    print(f'Optimal angle West: {np.argmax(total_incoming_energy_for_all_angles_fast[:,2])} degrees')
+
+    x=[i*10 for i in range(10)]
+    plt.figure(figsize=(8, 6))  # Set the figure size
+    plt.xticks(x,x,fontsize=10)
+    plt.plot(total_incoming_energy_for_all_angles_fast[:,0],label='East', color='blue')
+    plt.plot(total_incoming_energy_for_all_angles_fast[:,1],label='South', color='red')
+    plt.plot(total_incoming_energy_for_all_angles_fast[:,2], label='West', color='orange')
+    plt.xlim(left=0)
+    plt.ylim(bottom=0)
+    plt.title(f'Yearly solar energy yield in function of varying tilt angles')
+    plt.xlabel('Tilt angle [degrees]')
+    plt.ylabel('Solar incoming energy [kWh/m²]')
+    plt.legend()  # Add a legend
+    # plt.grid(True)  # Add a grid
+    # plt.tight_layout()  # Fit the plot nicely into the figure
+    output_file_path = f'Output_data/figures/yearly_solar_energy_yield_per_angle_fast_granularity_{granularity}'
+    # plt.savefig(output_file_path)
+    plt.show()
+
 """# Optimal angle calculation"""
 #for all tilt angles werkt niet (OSError: 143488800 requested and 35056128 written)?
 # total_irradiance_for_all_angles = np.load('Output_data/total_irradiance_for_all_angles.npy')
 
-#per tilt angle
-tilt_angles = range(91)
-total_irradiance_for_all_angles = np.zeros((len(tilt_angles),3,date_time.shape[0]))
-for tilt_angle in range(len(tilt_angles)):
-    total_irradiance_angle = np.load(f'Output_data/total_irradiance_per_angle/total_irradiance_for_tilt_angle_{tilt_angle}.npy')
-    total_irradiance_for_all_angles[tilt_angle,:,:] = total_irradiance_angle
-
-
-#integrate
-#kWh/m^2
-total_incoming_energy_for_all_angles = np.sum(total_irradiance_for_all_angles,axis=2)/60
-
-x=[i*10 for i in range(10)]
+# #per tilt angle
+# tilt_angles = range(91)
+# total_irradiance_for_all_angles = np.zeros((len(tilt_angles),3,date_time.shape[0]))
+# for tilt_angle in range(len(tilt_angles)):
+#     total_irradiance_angle = np.load(f'Output_data/total_irradiance_per_angle/total_irradiance_for_tilt_angle_{tilt_angle}.npy')
+#     total_irradiance_for_all_angles[tilt_angle,:,:] = total_irradiance_angle
+#
+#
+# #integrate
+# #kWh/m^2
+# total_incoming_energy_for_all_angles = np.sum(total_irradiance_for_all_angles,axis=2)/60/1000
+# print(total_incoming_energy_for_all_angles.shape)
+# print(f'Optimal angle East: {np.argmax(total_incoming_energy_for_all_angles[:,0])} degrees')
+# print(f'Optimal angle South: {np.argmax(total_incoming_energy_for_all_angles[:,1])} degrees')
+# print(f'Optimal angle West: {np.argmax(total_incoming_energy_for_all_angles[:,2])} degrees')
+#
+# x=[i*10 for i in range(10)]
 # l=[10*i for i in x]
 # l=[]
 # for i in range(24):
 #       l.append("%s:00"%i)
       # l.append(" ")
-
-plt.figure(figsize=(8, 6))  # Set the figure size
-plt.xticks(x,x,fontsize=10)
-plt.plot(total_incoming_energy_for_all_angles[:,0],label='East', color='blue')
-plt.plot(total_incoming_energy_for_all_angles[:,1],label='South', color='red')
-plt.plot(total_incoming_energy_for_all_angles[:,2], label='West', color='orange')
-plt.xlim(left=0)
-plt.ylim(bottom=0)
-plt.title(f'Yearly solar energy yield in function of varying tilt angles')
-plt.xlabel('Tilt angle [degrees]')
-plt.ylabel('Solar incoming energy [kWh/m²]')
-plt.legend()  # Add a legend
-# plt.grid(True)  # Add a grid
-plt.tight_layout()  # Fit the plot nicely into the figure
-output_file_path = f'Output_data/figures/yearly_solar_energy_yield_per_angle'
-plt.savefig(output_file_path)
-plt.show()
+#
+# plt.figure(figsize=(8, 6))  # Set the figure size
+# plt.xticks(x,x,fontsize=10)
+# plt.plot(total_incoming_energy_for_all_angles[:,0],label='East', color='blue')
+# plt.plot(total_incoming_energy_for_all_angles[:,1],label='South', color='red')
+# plt.plot(total_incoming_energy_for_all_angles[:,2], label='West', color='orange')
+# plt.xlim(left=0)
+# plt.ylim(bottom=0)
+# plt.title(f'Yearly solar energy yield in function of varying tilt angles')
+# plt.xlabel('Tilt angle [degrees]')
+# plt.ylabel('Solar incoming energy [kWh/m²]')
+# plt.legend()  # Add a legend
+# # plt.grid(True)  # Add a grid
+# plt.tight_layout()  # Fit the plot nicely into the figure
+# output_file_path = f'Output_data/figures/yearly_solar_energy_yield_per_angle'
+# # plt.savefig(output_file_path)
+# # plt.show()
 
 
 """#Plotting"""

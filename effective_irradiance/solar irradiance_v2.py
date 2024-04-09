@@ -81,7 +81,7 @@ def get_solar_irradiance(irradiance_GHI, irradiance_DHI, south_tilt_degree, east
     #the solar position vector calculation
     # solar_position = np.array([np.sin(zenith_rad) * np.sin(azimuth_rad),
     #                            np.sin(zenith_rad) * np.cos(azimuth_rad),
-    #                            np.cos(zenith_rad)]).T
+    #                            np.cos(zenith_rad)])
     solar_position = np.array([np.sin(zenith_rad) * np.sin(azimuth_rad),
                                np.sin(zenith_rad) * np.cos(azimuth_rad),
                                np.cos(zenith_rad)]).reshape((3,))
@@ -206,12 +206,12 @@ if one_instance_case:
 #for one day
 one_day_case = False
 if one_day_case:
-    granularity = 60
+    granularity = 4
 
     # day = 129
 
-    for day in random.sample(range(365), 20):
-    # for day in [124]:
+    for day in random.sample(range(365), 50):
+    # for day in [100]:
         total_irradiance = np.zeros((3,24*granularity))
         zenits = np.zeros((24*granularity))
         azimuths = np.zeros((24*granularity))
@@ -251,8 +251,8 @@ if one_day_case:
         # plt.grid(True)  # Add a grid
         plt.tight_layout()  # Fit the plot nicely into the figure
         output_file_path = f'Output_data/figures/plot_irradiance_profiles_for_different_panel_orientations_for_one_day_{day}'
-        # plt.savefig(output_file_path)
-        plt.show()
+        plt.savefig(output_file_path)
+        # plt.show()
 
         # x=[i*granularity for i in range(24)]
         # l=[]
@@ -321,7 +321,6 @@ if all_angles_case:
 
     # np.save('Output_data/total_irradiance_for_all_angles',total_irradiance_for_all_angles)
 
-
 all_angles_case_fast = False
 if all_angles_case_fast:
 
@@ -365,12 +364,12 @@ if all_angles_case_fast:
     # plt.grid(True)  # Add a grid
     # plt.tight_layout()  # Fit the plot nicely into the figure
     output_file_path = f'Output_data/figures/yearly_solar_energy_yield_per_angle_fast_granularity_{granularity}'
-    # plt.savefig(output_file_path)
-    plt.show()
+    plt.savefig(output_file_path)
+    # plt.show()
 
 """# Optimal angle calculation"""
-#for all tilt angles werkt niet (OSError: 143488800 requested and 35056128 written)?
-total_irradiance_for_all_angles = np.load('Output_data/total_irradiance_for_all_angles.npy')
+# #for all tilt angles werkt niet (OSError: 143488800 requested and 35056128 written)?
+# total_irradiance_for_all_angles = np.load('Output_data/total_irradiance_for_all_angles.npy')
 
 # #per tilt angle
 tilt_angles = range(91)
@@ -397,9 +396,10 @@ for i in range(24):
 
 plt.figure(figsize=(8, 6))  # Set the figure size
 plt.xticks(x,x,fontsize=10)
-plt.plot(total_incoming_energy_for_all_angles[:,0],label='East', color='blue')
+plt.plot((total_incoming_energy_for_all_angles[:,0]+total_incoming_energy_for_all_angles[:,2])/2,label='East-West', color='blue')
+# plt.plot(total_incoming_energy_for_all_angles[:,0],label='East', color='blue')
 plt.plot(total_incoming_energy_for_all_angles[:,1],label='South', color='red')
-plt.plot(total_incoming_energy_for_all_angles[:,2], label='West', color='orange')
+# plt.plot(total_incoming_energy_for_all_angles[:,2], label='West', color='orange')
 plt.xlim(left=0)
 plt.ylim(bottom=0)
 plt.title(f'Yearly solar energy yield in function of varying tilt angles')
@@ -408,7 +408,7 @@ plt.ylabel('Solar incoming energy [kWh/m²]')
 plt.legend()  # Add a legend
 # plt.grid(True)  # Add a grid
 plt.tight_layout()  # Fit the plot nicely into the figure
-output_file_path = f'Output_data/figures/yearly_solar_energy_yield_per_angle'
+output_file_path = f'Output_data/figures/yearly_solar_energy_yield_per_angle_EW'
 # plt.savefig(output_file_path)
 # plt.show()
 

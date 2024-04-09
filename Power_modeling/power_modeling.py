@@ -9,12 +9,13 @@ current_dir = os.getcwd()
 project_dir = os.path.dirname(current_dir)
 # print(project_dir)
 
+# from price_calculation import extract_prices_from_2018
 
 """# Defining system parameters"""
 Flat_roof = True
 Battery_case = True
 Southern_orientation_case = True
-# east_west_tiltWest_orientation_case
+
 
 
 
@@ -91,9 +92,7 @@ else:
 
 P_sun = GTI*n*A                                                     #(365,24,60)
 P_panel = P_sun*eta_panel                                           #Element wise product
-
 P_inverter = eta_inverter*P_panel
-
 P_inverter_array = P_inverter[:,:,::15].reshape(365*96)
 
 delta_t = 15*60
@@ -165,10 +164,12 @@ else:
     P_load = P_load_array.reshape(365,96)
     E_battery = E_battery_array.reshape(365,96)
 
+# np.save(project_dir+'/Power_modeling/Output_data/P_offtake',P_offtake)
+# np.save(project_dir+'/Power_modeling/Output_data/P_injection',P_injection)
 
-# print(P_offtake_array.shape)
 
-# plot
+"""#Plot results power modeling"""
+
 
 def plot_power_modeling_one_day(day,P_load_day,P_inverter_day,P_offtake_day,E_battery_day):
     x = [i*4 for i in range(24)]
@@ -215,12 +216,17 @@ def plot_power_modeling_one_day(day,P_load_day,P_inverter_day,P_offtake_day,E_ba
     # plt.show()
 
 
-for day in random.sample(range(365), 30):
+# for day in random.sample(range(365), 30):
 # for day in [1]:
-    P_offtake_day = P_offtake[day,:]
-    P_injection_day = P_injection[day,:]
-    P_direct_consumption_day = P_direct_consumption[day,:]
-    P_inverter_day = P_inverter[day,:]
-    P_load_day = P_load[day,:]
-    E_battery_day = E_battery[day,:]
-    plot_power_modeling_one_day(day,P_load_day,P_inverter_day,P_offtake_day,E_battery_day)
+    # P_offtake_day = P_offtake[day,:]
+    # P_injection_day = P_injection[day,:]
+    # P_direct_consumption_day = P_direct_consumption[day,:]
+    # P_inverter_day = P_inverter[day,:]
+    # P_load_day = P_load[day,:]
+    # E_battery_day = E_battery[day,:]
+    # # plot_power_modeling_one_day(day,P_load_day,P_inverter_day,P_offtake_day,E_battery_day)
+
+
+"""#Get electrity bill/total price"""
+
+# prices_2018 = extract_prices_from_2018(project_dir+'/Power_modeling/Input_data/Belgium.csv')

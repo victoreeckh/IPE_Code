@@ -150,8 +150,8 @@ def get_electricity_bill(P_offtake, P_injection, dynamic_tarrif, EV_case):
 
         # Call the function and get the prices for 2018
         prices_2018 = extract_prices_from_2018(file_path)
-        consumption_prices = [(1.1+0.1*x)*100 for x in prices_2018] # eur/kWh
-        injection_prices = [(-0.9050 +0.1*x)*100 for x in prices_2018]  # eur/kWh
+        consumption_prices = [(1.1+0.1*x)/100 for x in prices_2018] # eur/kWh
+        injection_prices = [(-0.9050 +0.1*x)/100 for x in prices_2018]  # eur/kWh
         cost_green_energy_and_WKK = 0.01582  # eur/kWh
 
         # networkcosts

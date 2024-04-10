@@ -12,18 +12,16 @@ project_dir = os.path.dirname(current_dir)
 # from price_calculation import extract_prices_from_2018
 
 """# Defining system parameters"""
-Flat_roof = True
+Flat_roof = False
 Battery_case = True
 Southern_orientation_case = True
-
-
-
 
 """# Defining system parameters"""
 
 # Chosen optimal solar angles
 optimal_south_tilt_angle = 40
 optimal_east_west_tilt_angle = 10
+gable_angle = 45
 
 n = 8                           #Amount of solar panels
 A = 1                           #Surface area of panels
@@ -46,49 +44,54 @@ P_inverter_max = 1e20
 P_bat_charge_max = 7500 #W
 P_bat_discharge_max = 6000 #W (From inverter datasheets??)
 E_bat_max = 10 #kWh (medium battery)
-eta_bat = 0.945
+eta_bat = 0.95
 
 """# Download data"""
+#Cell temperature data
+T_CommRoof = np.load(project_dir+'/Data_processing/Output_data/processed_T_CommRoof_data.npy')
+T_RV = np.load(project_dir+'/Data_processing/Output_data/processed_T_RV_data.npy')
+
+# split 1: 2^1
+if Flat_roof:
+    T_cell = T_CommRoof
+
+    south_tilt_angle = optimal_south_tilt_angle
+    east_west_tilt_angle = optimal_east_west_tilt_angle
+else:
+    T_cell = T_RV
+
+    south_tilt_angle = gable_angle
+    east_west_tilt_angle = gable_angle
 
 #from single GTI files
 GTI_EW = np.load(project_dir+\
-            f'/effective_irradiance/Output_data/total_irradiance_per_angle/total_irradiance_for_tilt_angle_{optimal_east_west_tilt_angle}.npy')
+            f'/effective_irradiance/Output_data/total_irradiance_per_angle/total_irradiance_for_tilt_angle_{east_west_tilt_angle}.npy')
 GTI_E = GTI_EW[0,:].reshape(365,24,60)
 GTI_W = GTI_EW[2,:].reshape(365,24,60)
 
 GTI_S = np.load(project_dir+\
-            f'/effective_irradiance/Output_data/total_irradiance_per_angle/total_irradiance_for_tilt_angle_{optimal_south_tilt_angle}.npy')
+            f'/effective_irradiance/Output_data/total_irradiance_per_angle/total_irradiance_for_tilt_angle_{south_tilt_angle}.npy')
 GTI_S = GTI_S[1,:].reshape(365,24,60)
 
 #load data
 # P_load = np.load(project_dir+'/Data_processing/Output_data/processed_load_data.npy')
 processed_load_data_df = pd.read_csv(project_dir+'/Data_processing/Output_data/processed_load_data_df.csv')
 P_load_array = processed_load_data_df['load data'].to_numpy()*1000 #Watt
-print(np.sum(P_load_array,axis=0)/1000*0.25)
-
-#Cell temperature data
-T_CommRoof = np.load(project_dir+'/Data_processing/Output_data/processed_T_CommRoof_data.npy')
-T_RV = np.load(project_dir+'/Data_processing/Output_data/processed_T_RV_data.npy')
-
 
 """# Power modeling calculations"""
 
 #Cases are binary permutations of (roof_tilt,orientation,battery use)=2^3=8 cases
-
-if Flat_roof:
-    T_cell = T_CommRoof
-else:
-    T_cell = T_RV
 
 eta_temp = 1 - beta_ref*(T_cell-T_ref)
 eta_panel = eta_cell * eta_shade * eta_obstruct * eta_temp * eta_degrad
 eta_panel = eta_panel.reshape(365,24,60)
 # print(eta_panel.shape)
 
+# split 2: 2^2
 if Southern_orientation_case:
     GTI = GTI_S
 else:
-    GTI = GTI_E      #klopt dit?
+    GTI = (GTI_E+GTI_W)/2      #klopt dit?
 
 P_sun = GTI*n*A                                                     #(365,24,60)
 P_panel = P_sun*eta_panel                                           #Element wise product
@@ -97,6 +100,7 @@ P_inverter_array = P_inverter[:,:,::15].reshape(365*96)
 
 delta_t = 15*60
 
+# split 3: 2^3
 if not Battery_case:
     P_offtake = P_load_array - P_inverter_array
     P_injection = - P_offtake
@@ -213,20 +217,15 @@ def plot_power_modeling_one_day(day,P_load_day,P_inverter_day,P_offtake_day,E_ba
 
     output_file_path = f'Output_data/figures/plot_power_modeling_one_day_{day}'
     plt.savefig(output_file_path)
-    # plt.show()
+    plt.show()
 
 
 # for day in random.sample(range(365), 30):
-# for day in [1]:
-    # P_offtake_day = P_offtake[day,:]
-    # P_injection_day = P_injection[day,:]
-    # P_direct_consumption_day = P_direct_consumption[day,:]
-    # P_inverter_day = P_inverter[day,:]
-    # P_load_day = P_load[day,:]
-    # E_battery_day = E_battery[day,:]
-    # # plot_power_modeling_one_day(day,P_load_day,P_inverter_day,P_offtake_day,E_battery_day)
-
-
-"""#Get electrity bill/total price"""
-
-# prices_2018 = extract_prices_from_2018(project_dir+'/Power_modeling/Input_data/Belgium.csv')
+for day in [124]:
+    P_offtake_day = P_offtake[day,:]
+    P_injection_day = P_injection[day,:]
+    P_direct_consumption_day = P_direct_consumption[day,:]
+    P_inverter_day = P_inverter[day,:]
+    P_load_day = P_load[day,:]
+    E_battery_day = E_battery[day,:]
+    plot_power_modeling_one_day(day,P_load_day,P_inverter_day,P_offtake_day,E_battery_day)

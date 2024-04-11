@@ -1,5 +1,7 @@
-def get_financials(capex, pv_lifetime, annual_electricity_bill, electricity_bill_base, discount_rate,):
+def get_financials(cost_panels, pv_lifetime, cost_invertor, invertor_lifetime, cost_battery, lifetime_battery, installation_cost, annual_electricity_bill, electricity_bill_base, discount_rate,):
     # Complete investment lumped in year 0
+    #installation cost should only be different for the different configurations e.g. gabble vs roof or if different amount of panels is installed
+    capex = cost_panels + cost_invertor/(invertor_lifetime/pv_lifetime) + cost_battery/(lifetime_battery/pv_lifetime) + installation_cost
     Net_present_value = -capex
     yearly_gain = electricity_bill_base - annual_electricity_bill
     for y in range(0, pv_lifetime):  # Adjusted the range for zero-based indexing
@@ -12,6 +14,3 @@ def get_financials(capex, pv_lifetime, annual_electricity_bill, electricity_bill
 
 #capex is not only the cost of components but also installation cost and other one time costs
 
-results = get_financials(capex=10000, pv_lifetime=25, annual_electricity_bill=500,
-                               electricity_bill_base=1900, discount_rate=0.05)
-print(results)

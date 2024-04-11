@@ -95,8 +95,13 @@ else:
 
 P_sun = GTI*n*A                                                     #(365,24,60)
 P_panel = P_sun*eta_panel                                           #Element wise product
+
+#PV panel max implementation
+
 P_inverter = eta_inverter*P_panel
 P_inverter_array = P_inverter[:,:,::15].reshape(365*96)
+
+
 
 delta_t = 15*60
 
@@ -134,10 +139,10 @@ else:
                 if P_excess > P_charge_max:
                     P_bat_charge = P_charge_max
                     E_bat += (P_bat_charge/1000)*(delta_t/3600)                   #charge battery
-                    P_injection = P_excess - P_bat_charge
+                    P_injection = P_excess - P_bat_charge/eta_bat
                 else:
                     P_bat_charge = P_excess
-                    E_bat += (P_bat_charge/1000)*(delta_t/3600)                   #charge battery
+                    E_bat += (P_bat_charge/1000)*(delta_t/3600)*eta_bat          #charge battery
                     P_injection = 0
             else:
                 P_injection = P_excess                              #inject when battery is full
@@ -150,10 +155,10 @@ else:
                 if P_short > P_discharge_max:
                     P_bat_discharge = P_discharge_max
                     E_bat -= (P_bat_discharge/1000)*(delta_t/3600)                #discharge battery
-                    P_offtake = P_short - P_bat_discharge
+                    P_offtake = P_short - P_bat_discharge*eta_bat
                 else:
                     P_bat_discharge = P_short
-                    E_bat -= (P_bat_discharge/1000)*(delta_t/3600)                #discharge battery
+                    E_bat -= (P_bat_discharge/1000)*(delta_t/3600)/eta_bat        #discharge battery
                     P_offtake = 0
             P_offtake = P_short
 
@@ -215,17 +220,17 @@ def plot_power_modeling_one_day(day,P_load_day,P_inverter_day,P_offtake_day,E_ba
     plt.subplots_adjust(hspace=0.5)
     # plt.tight_layout()
 
-    output_file_path = f'Output_data/figures/plot_power_modeling_one_day_{day}'
+    output_file_path = f'Output_data/figures/plot_power_modeling_one_day_{day}_new'
     plt.savefig(output_file_path)
-    plt.show()
+    # plt.show()
 
 
 # for day in random.sample(range(365), 30):
-for day in [124]:
-    P_offtake_day = P_offtake[day,:]
-    P_injection_day = P_injection[day,:]
-    P_direct_consumption_day = P_direct_consumption[day,:]
-    P_inverter_day = P_inverter[day,:]
-    P_load_day = P_load[day,:]
-    E_battery_day = E_battery[day,:]
-    plot_power_modeling_one_day(day,P_load_day,P_inverter_day,P_offtake_day,E_battery_day)
+# for day in [124]:
+#     P_offtake_day = P_offtake[day,:]
+#     P_injection_day = P_injection[day,:]
+#     P_direct_consumption_day = P_direct_consumption[day,:]
+#     P_inverter_day = P_inverter[day,:]
+#     P_load_day = P_load[day,:]
+#     E_battery_day = E_battery[day,:]
+#     plot_power_modeling_one_day(day,P_load_day,P_inverter_day,P_offtake_day,E_battery_day)

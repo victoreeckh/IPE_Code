@@ -1,7 +1,8 @@
 
-- Integrate eta_bat in algorithm (charging, discharging)
 - Integrate PV_peak in algorithm
 -waarvoor dienen volgende variabelen
-  - PV_efficiency_temp_coeff -> gebruiken we zelf ook niet, (beta)
+  - PV_efficiency_temp_coeff -> gebruiken we zelf ook, (beta), past aan per panel
   - PV_voltage -> nb of PV panels?
   - converter_wp_PV_dc, converter_wp_PV_ac
+
+-North oriented panels -> 

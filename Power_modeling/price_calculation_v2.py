@@ -170,21 +170,21 @@ def get_electricity_bill(P_offtake, P_injection, dynamic_tarrif, EV_case):
         return total_price
 
 
-P_offtake = np.load(project_dir+'/Power_modeling/Output_data/P_offtake.npy')
-P_injection = np.load(project_dir+'/Power_modeling/Output_data/P_injection.npy')
+# P_offtake = np.load(project_dir+'/Power_modeling/Output_data/P_offtake.npy')
+# P_injection = np.load(project_dir+'/Power_modeling/Output_data/P_injection.npy')
 
 
 """#Tests """
 
-P_offtake = np.load(project_dir+'/Power_modeling/Output_data/P_offtake.npy')
-P_injection = np.load(project_dir+'/Power_modeling/Output_data/P_injection.npy')
+# P_offtake = np.load(project_dir+'/Power_modeling/Output_data/P_offtake.npy')
+# P_injection = np.load(project_dir+'/Power_modeling/Output_data/P_injection.npy')
 
 # file_path = project_dir+'/Power_modeling/Input_data/Belgium.csv'
 # prices_2018 = extract_prices_from_2018(file_path)
 # print(prices_2018.shape)
 
 
-print(f'{get_electricity_bill(P_offtake, P_injection, False, False):.2f}')
-print(f'{get_electricity_bill(P_offtake, P_injection, True, False):.2f}')
-print(f'{get_electricity_bill(P_offtake, P_injection, False, True):.2f}')
-print(f'{get_electricity_bill(P_offtake, P_injection, True, True):.2f}')
+# print(f'{get_electricity_bill(P_offtake, P_injection, False, False):.2f}')
+# print(f'{get_electricity_bill(P_offtake, P_injection, True, False):.2f}')
+# print(f'{get_electricity_bill(P_offtake, P_injection, False, True):.2f}')
+# print(f'{get_electricity_bill(P_offtake, P_injection, True, True):.2f}')

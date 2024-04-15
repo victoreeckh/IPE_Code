@@ -1,0 +1,223 @@
+==========================================================================
+Current case id: 11111
+Flat roof?: True
+Battery case?: True
+Southern orientation case?: True
+Dynamic tarrif case?: True
+EV case?: True
+==========================================================================
+Current component_id id: 000
+Annual electricity bill [EUR]: 685.74
+Annual electricity bill base [EUR]: 825.23
+Discount rate used: 0.0400
+Net present value [EUR]: -1546.43
+Payback period [yr]: 26.71
+Return on investment: 0.94
+==========================================================================
+Current component_id id: 001
+Annual electricity bill [EUR]: 685.74
+Annual electricity bill base [EUR]: 825.23
+Discount rate used: 0.0400
+Net present value [EUR]: -1546.43
+Payback period [yr]: 26.71
+Return on investment: 0.94
+==========================================================================
+Current component_id id: 002
+Annual electricity bill [EUR]: 685.74
+Annual electricity bill base [EUR]: 825.23
+Discount rate used: 0.0400
+Net present value [EUR]: -1546.43
+Payback period [yr]: 26.71
+Return on investment: 0.94
+==========================================================================
+Current component_id id: 010
+Annual electricity bill [EUR]: 685.74
+Annual electricity bill base [EUR]: 825.23
+Discount rate used: 0.0400
+Net present value [EUR]: -1546.43
+Payback period [yr]: 26.71
+Return on investment: 0.94
+==========================================================================
+Current component_id id: 011
+Annual electricity bill [EUR]: 685.74
+Annual electricity bill base [EUR]: 825.23
+Discount rate used: 0.0400
+Net present value [EUR]: -1546.43
+Payback period [yr]: 26.71
+Return on investment: 0.94
+==========================================================================
+Current component_id id: 012
+Annual electricity bill [EUR]: 685.74
+Annual electricity bill base [EUR]: 825.23
+Discount rate used: 0.0400
+Net present value [EUR]: -1546.43
+Payback period [yr]: 26.71
+Return on investment: 0.94
+==========================================================================
+Current component_id id: 020
+Annual electricity bill [EUR]: 685.74
+Annual electricity bill base [EUR]: 825.23
+Discount rate used: 0.0400
+Net present value [EUR]: -1546.43
+Payback period [yr]: 26.71
+Return on investment: 0.94
+==========================================================================
+Current component_id id: 021
+Annual electricity bill [EUR]: 685.74
+Annual electricity bill base [EUR]: 825.23
+Discount rate used: 0.0400
+Net present value [EUR]: -1546.43
+Payback period [yr]: 26.71
+Return on investment: 0.94
+==========================================================================
+Current component_id id: 022
+Annual electricity bill [EUR]: 685.74
+Annual electricity bill base [EUR]: 825.23
+Discount rate used: 0.0400
+Net present value [EUR]: -1546.43
+Payback period [yr]: 26.71
+Return on investment: 0.94
+==========================================================================
+Current component_id id: 100
+Annual electricity bill [EUR]: 685.74
+Annual electricity bill base [EUR]: 825.23
+Discount rate used: 0.0400
+Net present value [EUR]: -1546.43
+Payback period [yr]: 26.71
+Return on investment: 0.94
+==========================================================================
+Current component_id id: 101
+Annual electricity bill [EUR]: 685.74
+Annual electricity bill base [EUR]: 825.23
+Discount rate used: 0.0400
+Net present value [EUR]: -1546.43
+Payback period [yr]: 26.71
+Return on investment: 0.94
+==========================================================================
+Current component_id id: 102
+Annual electricity bill [EUR]: 685.74
+Annual electricity bill base [EUR]: 825.23
+Discount rate used: 0.0400
+Net present value [EUR]: -1546.43
+Payback period [yr]: 26.71
+Return on investment: 0.94
+==========================================================================
+Current component_id id: 110
+Annual electricity bill [EUR]: 685.74
+Annual electricity bill base [EUR]: 825.23
+Discount rate used: 0.0400
+Net present value [EUR]: -1546.43
+Payback period [yr]: 26.71
+Return on investment: 0.94
+==========================================================================
+Current component_id id: 111
+Annual electricity bill [EUR]: 685.74
+Annual electricity bill base [EUR]: 825.23
+Discount rate used: 0.0400
+Net present value [EUR]: -1546.43
+Payback period [yr]: 26.71
+Return on investment: 0.94
+==========================================================================
+Current component_id id: 112
+Annual electricity bill [EUR]: 685.74
+Annual electricity bill base [EUR]: 825.23
+Discount rate used: 0.0400
+Net present value [EUR]: -1546.43
+Payback period [yr]: 26.71
+Return on investment: 0.94
+==========================================================================
+Current component_id id: 120
+Annual electricity bill [EUR]: 685.74
+Annual electricity bill base [EUR]: 825.23
+Discount rate used: 0.0400
+Net present value [EUR]: -1546.43
+Payback period [yr]: 26.71
+Return on investment: 0.94
+==========================================================================
+Current component_id id: 121
+Annual electricity bill [EUR]: 685.74
+Annual electricity bill base [EUR]: 825.23
+Discount rate used: 0.0400
+Net present value [EUR]: -1546.43
+Payback period [yr]: 26.71
+Return on investment: 0.94
+==========================================================================
+Current component_id id: 122
+Annual electricity bill [EUR]: 685.74
+Annual electricity bill base [EUR]: 825.23
+Discount rate used: 0.0400
+Net present value [EUR]: -1546.43
+Payback period [yr]: 26.71
+Return on investment: 0.94
+==========================================================================
+Current component_id id: 200
+Annual electricity bill [EUR]: 685.74
+Annual electricity bill base [EUR]: 825.23
+Discount rate used: 0.0400
+Net present value [EUR]: -1546.43
+Payback period [yr]: 26.71
+Return on investment: 0.94
+==========================================================================
+Current component_id id: 201
+Annual electricity bill [EUR]: 685.74
+Annual electricity bill base [EUR]: 825.23
+Discount rate used: 0.0400
+Net present value [EUR]: -1546.43
+Payback period [yr]: 26.71
+Return on investment: 0.94
+==========================================================================
+Current component_id id: 202
+Annual electricity bill [EUR]: 685.74
+Annual electricity bill base [EUR]: 825.23
+Discount rate used: 0.0400
+Net present value [EUR]: -1546.43
+Payback period [yr]: 26.71
+Return on investment: 0.94
+==========================================================================
+Current component_id id: 210
+Annual electricity bill [EUR]: 685.74
+Annual electricity bill base [EUR]: 825.23
+Discount rate used: 0.0400
+Net present value [EUR]: -1546.43
+Payback period [yr]: 26.71
+Return on investment: 0.94
+==========================================================================
+Current component_id id: 211
+Annual electricity bill [EUR]: 685.74
+Annual electricity bill base [EUR]: 825.23
+Discount rate used: 0.0400
+Net present value [EUR]: -1546.43
+Payback period [yr]: 26.71
+Return on investment: 0.94
+==========================================================================
+Current component_id id: 212
+Annual electricity bill [EUR]: 685.74
+Annual electricity bill base [EUR]: 825.23
+Discount rate used: 0.0400
+Net present value [EUR]: -1546.43
+Payback period [yr]: 26.71
+Return on investment: 0.94
+==========================================================================
+Current component_id id: 220
+Annual electricity bill [EUR]: 685.74
+Annual electricity bill base [EUR]: 825.23
+Discount rate used: 0.0400
+Net present value [EUR]: -1546.43
+Payback period [yr]: 26.71
+Return on investment: 0.94
+==========================================================================
+Current component_id id: 221
+Annual electricity bill [EUR]: 685.74
+Annual electricity bill base [EUR]: 825.23
+Discount rate used: 0.0400
+Net present value [EUR]: -1546.43
+Payback period [yr]: 26.71
+Return on investment: 0.94
+==========================================================================
+Current component_id id: 222
+Annual electricity bill [EUR]: 685.74
+Annual electricity bill base [EUR]: 825.23
+Discount rate used: 0.0400
+Net present value [EUR]: -1546.43
+Payback period [yr]: 26.71
+Return on investment: 0.94

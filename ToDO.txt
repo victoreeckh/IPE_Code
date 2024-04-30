@@ -3,6 +3,12 @@
 -waarvoor dienen volgende variabelen
   - PV_efficiency_temp_coeff -> gebruiken we zelf ook, (beta), past aan per panel
   - PV_voltage -> nb of PV panels?
-  - converter_wp_PV_dc, converter_wp_PV_ac
 
--North oriented panels -> 
+-data still needed:
+    -PV, inverter, battery: lifetime+price+(installation?)
+    -3phase cost?
+    -Converter voltage range?
+    -installation cost
+
+-dak dimensions laten variëren?
+-meerdere discount rates?

@@ -8,7 +8,7 @@ current_dir = os.getcwd()
 # print(current_dir)
 project_dir = os.path.dirname(current_dir)
 # print(project_dir)
- 
+
 
 """# Defining case"""
 Flat_roof_case = False

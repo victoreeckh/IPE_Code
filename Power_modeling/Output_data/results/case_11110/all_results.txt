@@ -1,0 +1,36 @@
+==========================================================================
+==========================================================================
+Current case id: 11110
+Flat roof?: True
+Battery case?: True
+Southern orientation case?: True
+Dynamic tarrif case?: True
+EV case?: False
+==========================================================================
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 000
+Annual electricity bill [EUR]: 158.61
+Annual electricity bill base [EUR]: 825.23
+Discount rate used: 0.0300
+Number of panels used: 18.00
+Capex: 12932.67
+Net present value [EUR]: -1324.65
+Payback period [yr]: 19.40
+Return on investment: 1.29
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 001
+Annual electricity bill [EUR]: 171.06
+Annual electricity bill base [EUR]: 825.23
+Discount rate used: 0.0300
+Number of panels used: 18.00
+Capex: 13541.00
+Net present value [EUR]: -2149.91
+Payback period [yr]: 20.70
+Return on investment: 1.21
+==========================================================================

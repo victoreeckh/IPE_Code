@@ -16,7 +16,7 @@ from price_calculation_v2 import get_electricity_bill
 from financial_functions import get_financials
 
 
-def run_power_modeling(Flat_roof_case,Battery_case,Southern_orientation_case,PV_data,Inverter_data,Battery_data):
+def run_power_modeling(Flat_roof_case,Battery_case,Southern_orientation_case,EV_case,PV_data,Inverter_data,Battery_data,EV_data):
     """# Defining system parameters"""
 
     # Chosen optimal solar angles
@@ -26,11 +26,11 @@ def run_power_modeling(Flat_roof_case,Battery_case,Southern_orientation_case,PV_
 
     #PV data
     l_roof = 10
-    w_roof = 2
+    w_roof = 8
     l_panel = PV_data['l_panel_option']
     w_panel = PV_data['w_panel_option']
     A = l_panel*w_panel
-    n = get_number_of_solar_panels(Southern_orientation_case, Flat_roof_case, w_roof, l_roof, w_panel, l_panel)                           #Amount of solar panels
+    n = get_number_of_solar_panels(Southern_orientation_case, Flat_roof_case, w_roof, l_roof, w_panel, l_panel,PV_data['P_PV_peak_option'],Inverter_data['P_inverter_max_option'])                           #Amount of solar panels
 
     P_PV_peak = PV_data['P_PV_peak_option']
 
@@ -62,37 +62,69 @@ def run_power_modeling(Flat_roof_case,Battery_case,Southern_orientation_case,PV_
     battery_price = Battery_data['battery_price_option']
     battery_lifetime = Battery_data['battery_lifetime_option']
 
+    #EV data
+    EV_average_distance_traveled_per_day = EV_data['EV average distance traveled per day']
+    EV_average_energy_consumption = EV_data['EV average energy consumption']
+    EV_average_home_arrival_time_index = EV_data['EV average home arrival time index']
+    EV_P_charge_max = EV_data['Max charge speed']
+
+
     """# Download data"""
     #Cell temperature data
     T_CommRoof = np.load(project_dir+'/Data_processing/Output_data/processed_T_CommRoof_data.npy')
     T_RV = np.load(project_dir+'/Data_processing/Output_data/processed_T_RV_data.npy')
 
     # split 1: 2^1
+    #load data
+    #from single GTI files
     if Flat_roof_case:
         T_cell = T_CommRoof
 
-        south_tilt_angle = optimal_south_tilt_angle
-        east_west_tilt_angle = optimal_east_west_tilt_angle
+        if Southern_orientation_case:
+            GTI_S = np.load(project_dir+\
+                        f'/effective_irradiance/Output_data/total_irradiance_per_angle/total_irradiance_for_tilt_angle_{optimal_south_tilt_angle}.npy')
+            GTI = GTI_S[1,:].reshape(365,24,60)
+        else:
+            GTI_EW = np.load(project_dir+\
+                        f'/effective_irradiance/Output_data/total_irradiance_per_angle/total_irradiance_for_tilt_angle_{optimal_east_west_tilt_angle}.npy')
+            GTI_E = GTI_EW[0,:].reshape(365,24,60)
+            GTI_W = GTI_EW[2,:].reshape(365,24,60)
+            GTI = (GTI_E+GTI_W)/2
+
     else:
         T_cell = T_RV
 
         south_tilt_angle = gable_angle
         east_west_tilt_angle = gable_angle
+        if Southern_orientation_case:
+            GTI_S = np.load(project_dir+\
+                        f'/effective_irradiance/Output_data/total_irradiance_per_angle/total_irradiance_for_tilt_angle_{gable_angle}.npy')
+            GTI_S = GTI_S[1,:].reshape(365,24,60)
+            GTI_N = np.load(project_dir+\
+                        f'/effective_irradiance/Output_data/total_irradiance_per_angle_N/total_irradiance_for_tilt_angle_45.npy')
+            GTI_N = GTI_N[1,:].reshape(365,24,60)
+            GTI = (GTI_S + GTI_N)/2
 
-    #load data
-    #from single GTI files
-    GTI_EW = np.load(project_dir+\
-                f'/effective_irradiance/Output_data/total_irradiance_per_angle/total_irradiance_for_tilt_angle_{east_west_tilt_angle}.npy')
-    GTI_E = GTI_EW[0,:].reshape(365,24,60)
-    GTI_W = GTI_EW[2,:].reshape(365,24,60)
+        else:
+            GTI_EW = np.load(project_dir+\
+                        f'/effective_irradiance/Output_data/total_irradiance_per_angle/total_irradiance_for_tilt_angle_{gable_angle}.npy')
+            GTI_E = GTI_EW[0,:].reshape(365,24,60)
+            GTI_W = GTI_EW[2,:].reshape(365,24,60)
+            GTI = (GTI_E+GTI_W)/2
 
-    GTI_S = np.load(project_dir+\
-                f'/effective_irradiance/Output_data/total_irradiance_per_angle/total_irradiance_for_tilt_angle_{south_tilt_angle}.npy')
-    GTI_S = GTI_S[1,:].reshape(365,24,60)
 
     # P_load = np.load(project_dir+'/Data_processing/Output_data/processed_load_data.npy')
     processed_load_data_df = pd.read_csv(project_dir+'/Data_processing/Output_data/processed_load_data_df.csv')
     P_load_array = processed_load_data_df['load data'].to_numpy()*1000 #Watt
+
+    if EV_case == 1:
+        #Build EV load profile
+        EV_load_array = np.zeros((365,96))
+        charge_time = np.floor(EV_average_energy_consumption*EV_average_distance_traveled_per_day/EV_P_charge_max).astype(int)*4
+        EV_load_array[:,EV_average_home_arrival_time_index:EV_average_home_arrival_time_index+charge_time] = EV_P_charge_max*1000 #W
+        EV_load_array = EV_load_array.reshape(365*96)
+        P_load_array = P_load_array + EV_load_array
+
 
     """# Power modeling calculations"""
 
@@ -103,19 +135,13 @@ def run_power_modeling(Flat_roof_case,Battery_case,Southern_orientation_case,PV_
     eta_panel = eta_panel.reshape(365,24,60)
     # print(eta_panel.shape)
 
-    # split 2: 2^2
-    if Southern_orientation_case:
-        GTI = GTI_S
-    else:
-        GTI = (GTI_E+GTI_W)/2      #klopt dit?
-
-    P_sun = GTI*n*A                                                     #(365,24,60)
+    P_sun = GTI                                                     #(365,24,60)
     P_panel = P_sun*eta_panel                                           #Element wise product
 
     #PV panel max implementation
     P_panel[P_panel>=P_PV_peak] = P_PV_peak
 
-    P_inverter = eta_inverter*P_panel
+    P_inverter = eta_inverter*P_panel*n*A
     P_inverter_array = P_inverter[:,:,::15].reshape(365*96)
 
 
@@ -123,10 +149,10 @@ def run_power_modeling(Flat_roof_case,Battery_case,Southern_orientation_case,PV_
 
     # split 3: 2^3
     if not Battery_case:
-        P_offtake = P_load_array - P_inverter_array
-        P_injection = - P_offtake
-        P_battery = np.zeros(P_offtake.shape)
-        P_direct_consumption = P_inverter_array - P_injection
+        P_offtake_array = P_load_array - P_inverter_array
+        P_injection_array = - P_offtake_array
+        P_direct_consumption_array = P_inverter_array - P_injection_array
+        E_battery_array = np.zeros(P_inverter_array.shape[0])
 
     else:
         E_bat = 0
@@ -183,11 +209,11 @@ def run_power_modeling(Flat_roof_case,Battery_case,Southern_orientation_case,PV_
             P_injection_array[t] = P_injection
             P_direct_consumption_array[t] = P_direct_consumption
             E_battery_array[t] = E_bat
-        P_offtake = P_offtake_array.reshape(365,96)
-        P_injection = P_injection_array.reshape(365,96)
-        P_direct_consumption = P_direct_consumption_array.reshape(365,96)
-        P_inverter = P_inverter_array.reshape(365,96)
-        P_load = P_load_array.reshape(365,96)
-        E_battery = E_battery_array.reshape(365,96)
+    P_offtake = P_offtake_array.reshape(365,96)
+    P_injection = P_injection_array.reshape(365,96)
+    P_direct_consumption = P_direct_consumption_array.reshape(365,96)
+    P_inverter = P_inverter_array.reshape(365,96)
+    P_load = P_load_array.reshape(365,96)
+    E_battery = E_battery_array.reshape(365,96)
 
-        return P_offtake, P_injection, P_direct_consumption, P_inverter, P_load, E_battery
+    return P_offtake, P_injection, P_direct_consumption, P_inverter, P_load, E_battery

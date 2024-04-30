@@ -373,9 +373,9 @@ T_CommRoof_full_augmented = T_CommRoof_full_augmented.reshape(365,24*60)
   # DiffRad_for_day(DiffRad_full_augmented,d,True)
 
 """## Uploading data"""
-
+# print(Load_profile_11_load_augmented.shape)
 #load
-np.save("Output_data/processed_load_data",Load_profile_11_load_augmented)
+# np.save("Output_data/processed_load_data",Load_profile_11_load_augmented)
 # processed_load_data_df = pd.DataFrame(data={'DateTime':Load_profile_11_time.reshape(365*96), 'load data': Load_profile_11_load_augmented.reshape(365*96)})
 # processed_load_data_df.to_csv("Output_data/processed_load_data_df.csv",index=False)
 #

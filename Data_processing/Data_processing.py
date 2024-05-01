@@ -40,8 +40,8 @@ df_Irradiance_data = df_Irradiance_data[["DateTime","GlobRad","DiffRad","T_RV_de
 Irradiance_data = df_Irradiance_data.to_numpy()
 Load_profile_11 = df_Load_profile_11.to_numpy()
 
-"""##Load Profiles
-
+"""
+##Load Profiles
 ###Load Visualisation
 """
 
@@ -119,7 +119,7 @@ def plot_load_data_for_whole_year(Load_data):
     plt.savefig(output_file_path)
     # plt.show()
 
-plot_load_data_for_whole_year(Load_profile_11_load.reshape(365*96))
+# plot_load_data_for_whole_year(Load_profile_11_load.reshape(365*96))
 
 #Comments
 #day 171-177 energyville on vacation? (20/06-26/06)
@@ -143,7 +143,7 @@ def Load_profile_for_day(load_data, day, printgraph):
     plt.savefig(output_file_path)
   # return load_data_day
 
-# Load_profile_for_day(Load_profile_11_load,365,True) #From day 351 no data anymore
+# Load_profile_for_day(Load_profile_11_load,1,True) #From day 351 no data anymore
 
 """### Fill up missing load data"""
 
@@ -169,8 +169,8 @@ def generate_normalized_weights(n_weights, distribution="normal"):
 
 # Example usage: Generate 3 weights from a normal distribution
 weights = generate_normalized_weights(3)
-# print(weights)
-# print(weights.sum())  # Should be close to 1
+print(weights)
+print(weights.sum())  # Should be close to 1
 
 # plt.plot(range(3),weights)
 
@@ -199,10 +199,10 @@ Load_profile_11_load_augmented[357:364,:] = new_week_load_data
 Load_profile_11_load_augmented[350:357,:] = new_week_load_data
 Load_profile_11_load_augmented[364,:] = new_week_load_data[0]
 
-# Load_profile_for_day(Load_profile_11_load_augmented,359,True)
+Load_profile_for_day(Load_profile_11_load_augmented,359,True)
 
-"""## Irradiance profiles
-
+"""
+## Irradiance profiles
 ### Irradiance visualisation
 """
 
@@ -298,7 +298,7 @@ def GlobRad_for_day(irradiance_data, day, printgraph):
     plt.ylabel('Global Irradiance [W/m^2]', fontsize = 15)
     plt.yticks(fontsize = 10)
     plt.title('Global Irradiance profile for a certain day', fontsize = 15)
-    plt.show()
+    # plt.show()
   return GlobRad_day
 
 # GlobRad_for_day(GlobRad_full,71,True)

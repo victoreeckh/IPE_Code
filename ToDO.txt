@@ -12,3 +12,12 @@
 
 -dak dimensions laten variëren?
 -meerdere discount rates?
+
+
+EV case:
+1. Uncontrolled charging
+  Needed info:
+    - average traveled distance per day [km]
+    - Consumption kWh/km
+    - Max charge speed
+    - average

@@ -296,13 +296,15 @@ Battery_data = {}
 """
 EV_data = {}
 #case 1
-EV_data['EV average distance traveled per day'] = 20
-EV_data['EV average energy consumption'] =  0.2                  #kWh/km
-EV_average_home_arrival_time = datetime(2018, 1, 1, 16, 0)
+EV_data['EV average distance traveled per day'] = 23*2+20                 #km  #https://www.fleeteurope.com/en/maas/belgium/features/average-belgian-company-car-commute-shrinks-23-km?a=FJA05&curl=1
+EV_data['EV average energy consumption'] =  0.187                  #kWh/km
+EV_average_home_arrival_time = datetime(2018, 1, 1, 17, 0)
 EV_data['EV average home arrival time index'] = (EV_average_home_arrival_time.hour)*4-1
-EV_data['Max charge speed'] = 7                                   #kW
-
-#case 2
+EV_average_home_departure_time = datetime(2018, 1, 1, 8, 0)
+EV_data['EV average home departure time index'] = (EV_average_home_departure_time.hour)*4-1
+EV_data['Max charge speed convertor'] = 7.6                                   #kW #https://www.tesla.com/support/energy/solar-inverter/tesla-solar-inverter
+EV_data['Convertor efficiency'] = 0.98*0.96                                     # x battery efficiency #https://www.tesla.com/support/energy/solar-inverter/tesla-solar-inverter
+EV_data['Max battery capacity'] = 103                               #kWh
 
 """
 #Other data options
@@ -313,12 +315,6 @@ discount_rate = 0.03            #risk-free rate Belgium
 #Looping
 """
 best_results = {}
-best_results['best_NPV'] = -float('inf')
-best_results['best_NPV_comp_id'] = None
-best_results['best_PBP'] = float('inf')
-best_results['best_PBP_comp_id'] = None
-best_results['best_ROI'] = 0
-best_results['best_ROI_comp_id'] = None
 strings_to_print = []
 best_results_strings_to_print = []
 string_line = '=========================================================================='
@@ -326,13 +322,18 @@ string_line = '=================================================================
 nb_cases = 2**5
 nb_component_cases = 300
 case = 0
-for Flat_roof_case in [True,False]:
+for Flat_roof_case in [False]:
     for Battery_case in [True,False]:
         for Southern_orientation_case in [True,False]:
-            for dynamic_tarrif_case in [True]:
-                # for EV_case in [True,False]:
-                # for EV_case in [0,1,2,3]:
-                for EV_case in [1]:
+            for dynamic_tarrif_case in [True,False]:
+                for EV_case in [0,1,2,3]:
+                    best_results['best_NPV'] = -float('inf')
+                    best_results['best_NPV_comp_id'] = None
+                    best_results['best_PBP'] = float('inf')
+                    best_results['best_PBP_comp_id'] = None
+                    best_results['best_ROI'] = 0
+                    best_results['best_ROI_comp_id'] = None
+                    
                     case_id = str(int(Flat_roof_case))+str(int(Battery_case))+str(int(Southern_orientation_case))+str(int(dynamic_tarrif_case))+str(int(EV_case))
                     strings_to_print.append(string_line)
                     strings_to_print.append(string_line)
@@ -386,8 +387,8 @@ for Flat_roof_case in [True,False]:
                                     Battery_data['battery_price_option'] = battery_price_options[Battery_option]
                                     Battery_data['battery_lifetime_option'] = battery_lifetime_options[Battery_option]
 
-                                    os.makedirs(f'Output_data/results/case_{case_id}/component_case_{component_id}', exist_ok=True)
-                                    P_offtake,P_injection,P_direct_consumption,P_inverter,P_load,E_battery = run_power_modeling(Flat_roof_case,Battery_case,Southern_orientation_case,EV_case,PV_data,Inverter_data,Battery_data,EV_data)
+                                    # os.makedirs(f'Output_data/results/case_{case_id}/component_case_{component_id}', exist_ok=True)
+                                    P_offtake,P_injection,P_direct_consumption,P_inverter,P_load,E_battery = run_power_modeling(Flat_roof_case,Battery_case,Southern_orientation_case,dynamic_tarrif_case,EV_case,PV_data,Inverter_data,Battery_data,EV_data)
 
                                     # np.save(f'Output_data/results/case_{case_id}/component_case_{component_id}/P_offtake',P_offtake)
                                     # np.save(f'Output_data/results/case_{case_id}/component_case_{component_id}/P_injection',P_injection)
@@ -398,6 +399,8 @@ for Flat_roof_case in [True,False]:
 
                                     annual_electricity_bill = get_electricity_bill(P_offtake, P_injection, dynamic_tarrif_case, EV_case)
                                     electricity_bill_base = get_electricity_bill(P_load, np.zeros(P_load.shape), dynamic_tarrif_case, EV_case)
+                                    strings_to_print.append(f'Annual Power Offtake [kW]: {P_offtake/1000:.4f}')
+                                    strings_to_print.append(f'Annual Power Injection [kW]: {P_injection/1000:.4f}')
                                     strings_to_print.append(f'Annual electricity bill [EUR]: {annual_electricity_bill:.2f}')
                                     strings_to_print.append(f'Annual electricity bill base [EUR]: {electricity_bill_base:.2f}')
 
@@ -441,9 +444,9 @@ for Flat_roof_case in [True,False]:
                                     strings_to_print.append(f'Return on investment: {return_on_investment:.2f}')
                                     strings_to_print.append(string_line)
 
-                                    # with open(f'Output_data/results/case_{case_id}/all_results.txt', 'a') as file:
-                                    #     for string in strings_to_print:
-                                    #         file.write(string + '\n')
+                                    with open(f'Output_data/results/case_{case_id}/all_results.txt', 'a') as file:
+                                        for string in strings_to_print:
+                                            file.write(string + '\n')
 
                                     strings_to_print = []
                         else:
@@ -469,8 +472,8 @@ for Flat_roof_case in [True,False]:
                                     Battery_data['battery_price_option'] = battery_price_options[Battery_option]
                                     Battery_data['battery_lifetime_option'] = battery_lifetime_options[Battery_option]
 
-                                    os.makedirs(f'Output_data/results/case_{case_id}/component_case_{component_id}', exist_ok=True)
-                                    P_offtake,P_injection,P_direct_consumption,P_inverter,P_load,E_battery = run_power_modeling(Flat_roof_case,Battery_case,Southern_orientation_case,EV_case,PV_data,Inverter_data,Battery_data,EV_data)
+                                    # os.makedirs(f'Output_data/results/case_{case_id}/component_case_{component_id}', exist_ok=True)
+                                    P_offtake,P_injection,P_direct_consumption,P_inverter,P_load,E_battery = run_power_modeling(Flat_roof_case,Battery_case,Southern_orientation_case,dynamic_tarrif_case,EV_case,PV_data,Inverter_data,Battery_data,EV_data)
 
                                     # np.save(f'Output_data/results/case_{case_id}/component_case_{component_id}/P_offtake',P_offtake)
                                     # np.save(f'Output_data/results/case_{case_id}/component_case_{component_id}/P_injection',P_injection)
@@ -481,6 +484,8 @@ for Flat_roof_case in [True,False]:
 
                                     annual_electricity_bill = get_electricity_bill(P_offtake, P_injection, dynamic_tarrif_case, EV_case)
                                     electricity_bill_base = get_electricity_bill(P_load, np.zeros(P_load.shape), dynamic_tarrif_case, EV_case)
+                                    strings_to_print.append(f'Annual Power Offtake [kW]: {P_offtake/1000:.4f}')
+                                    strings_to_print.append(f'Annual Power Injection [kW]: {P_injection/1000:.4f}')
                                     strings_to_print.append(f'Annual electricity bill [EUR]: {annual_electricity_bill:.2f}')
                                     strings_to_print.append(f'Annual electricity bill base [EUR]: {electricity_bill_base:.2f}')
 
@@ -524,9 +529,9 @@ for Flat_roof_case in [True,False]:
                                     strings_to_print.append(f'Return on investment: {return_on_investment:.2f}')
                                     strings_to_print.append(string_line)
 
-                                    # with open(f'Output_data/results/case_{case_id}/all_results.txt', 'a') as file:
-                                    #     for string in strings_to_print:
-                                    #         file.write(string + '\n')
+                                    with open(f'Output_data/results/case_{case_id}/all_results.txt', 'a') as file:
+                                        for string in strings_to_print:
+                                            file.write(string + '\n')
 
                                     strings_to_print = []
 
@@ -542,8 +547,8 @@ for Flat_roof_case in [True,False]:
                     best_results_strings_to_print.append(f'Payback period [yr]: {best_PBP_print:.2f}')
                     best_results_strings_to_print.append(f'Best performing component case regarding ROI: {best_ROI_comp_id_print}')
                     best_results_strings_to_print.append(f'Return on investment: {best_ROI_print:.2f}')
-                    # with open(f'Output_data/results/case_{case_id}/best_results.txt', 'a') as file:
-                    #     for string in best_results_strings_to_print:
-                    #         file.write(string + '\n')
+                    with open(f'Output_data/results/case_{case_id}/best_results.txt', 'a') as file:
+                        for string in best_results_strings_to_print:
+                            file.write(string + '\n')
 
                     best_results_strings_to_print = []

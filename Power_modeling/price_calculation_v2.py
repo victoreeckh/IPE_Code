@@ -94,8 +94,8 @@ def get_electricity_bill(P_offtake, P_injection, dynamic_tarrif, EV_case):
     average_peak = (peak_jan + peak_feb + peak_mar + peak_apr + peak_may + peak_jun + peak_jul + peak_aug + peak_sep + peak_oct + peak_nov + peak_dec) / 12
 
 
-    if dynamic_tarrif is False:
-        if EV_case is True:
+    if dynamic_tarrif == False:
+        if EV_case != 0:
             fixed_fee = 100.7 #eur/y
             consumption_price_day = 0.15883 #eur/kWh
             consumption_price_night = 0.11251  # eur/kWh
@@ -143,7 +143,7 @@ def get_electricity_bill(P_offtake, P_injection, dynamic_tarrif, EV_case):
             return total_price
 
 
-    if dynamic_tarrif is True:
+    if dynamic_tarrif == True:
         fixed_fee = 100.7  # eur/y
         # Define the path to your CSV file
         file_path = project_dir+'/Power_modeling/Input_data/Belgium.csv'
@@ -175,13 +175,14 @@ def get_electricity_bill(P_offtake, P_injection, dynamic_tarrif, EV_case):
 
 
 """#Tests """
-
-# P_offtake = np.load(project_dir+'/Power_modeling/Output_data/P_offtake.npy')
-# P_injection = np.load(project_dir+'/Power_modeling/Output_data/P_injection.npy')
-
-# file_path = project_dir+'/Power_modeling/Input_data/Belgium.csv'
-# prices_2018 = extract_prices_from_2018(file_path)
+# prices_2018 = np.array(extract_prices_from_2018(project_dir+'/Power_modeling/Input_data/Belgium.csv'))
 # print(prices_2018.shape)
+# print(f'Mean is: {np.mean(prices_2018)}')
+# print(f'Median is: {np.median(prices_2018)}')
+# print(f'Q1 is: {np.percentile(prices_2018,25)}')
+# print(f'Q3 is: {np.percentile(prices_2018,75)}')
+# print(f'Max is: {np.max(prices_2018)}')
+# print(f'Min is: {np.min(prices_2018)}')
 
 
 # print(f'{get_electricity_bill(P_offtake, P_injection, False, False):.2f}')

@@ -16,7 +16,7 @@ from price_calculation_v2 import get_electricity_bill
 from financial_functions import get_financials
 
 
-def run_power_modeling(Flat_roof_case,Battery_case,Southern_orientation_case,EV_case,PV_data,Inverter_data,Battery_data,EV_data):
+def run_power_modeling(Flat_roof_case,Battery_case,Southern_orientation_case,dynamic_tarrif_case,EV_case,PV_data,Inverter_data,Battery_data,EV_data):
     """# Defining system parameters"""
 
     # Chosen optimal solar angles
@@ -66,7 +66,12 @@ def run_power_modeling(Flat_roof_case,Battery_case,Southern_orientation_case,EV_
     EV_average_distance_traveled_per_day = EV_data['EV average distance traveled per day']
     EV_average_energy_consumption = EV_data['EV average energy consumption']
     EV_average_home_arrival_time_index = EV_data['EV average home arrival time index']
-    EV_P_charge_max = EV_data['Max charge speed']
+    EV_average_home_departure_time_index = EV_data['EV average home departure time index']
+    P_bat_EV_charge_max = EV_data['Max charge speed convertor']
+    P_bat_EV_discharge_max = EV_data['Max charge speed convertor']
+    E_bat_EV_max = EV_data['Max battery capacity']
+    eta_bat_EV = EV_data['Convertor efficiency']
+
 
 
     """# Download data"""
@@ -102,7 +107,7 @@ def run_power_modeling(Flat_roof_case,Battery_case,Southern_orientation_case,EV_
             GTI_S = GTI_S[1,:].reshape(365,24,60)
             GTI_N = np.load(project_dir+\
                         f'/effective_irradiance/Output_data/total_irradiance_per_angle_N/total_irradiance_for_tilt_angle_45.npy')
-            GTI_N = GTI_N[1,:].reshape(365,24,60)
+            GTI_N = GTI_N.reshape(365,24,60)
             GTI = (GTI_S + GTI_N)/2
 
         else:
@@ -120,10 +125,26 @@ def run_power_modeling(Flat_roof_case,Battery_case,Southern_orientation_case,EV_
     if EV_case == 1:
         #Build EV load profile
         EV_load_array = np.zeros((365,96))
-        charge_time = np.floor(EV_average_energy_consumption*EV_average_distance_traveled_per_day/EV_P_charge_max).astype(int)*4
-        EV_load_array[:,EV_average_home_arrival_time_index:EV_average_home_arrival_time_index+charge_time] = EV_P_charge_max*1000 #W
+        charge_time = np.floor(EV_average_energy_consumption*EV_average_distance_traveled_per_day/P_bat_EV_charge_max).astype(int)*4
+        EV_load_array[:,EV_average_home_arrival_time_index:EV_average_home_arrival_time_index+charge_time] = P_bat_EV_charge_max*1000 #W
         EV_load_array = EV_load_array.reshape(365*96)
         P_load_array = P_load_array + EV_load_array
+
+    if EV_case == 2:
+        EV_load_array = np.zeros((365,96))
+        if dynamic_tarrif_case == False:
+            P_charge = np.min([EV_average_energy_consumption*EV_average_distance_traveled_per_day/9,P_bat_EV_charge_max])*1000              #W
+            EV_load_array[:,0:7*4] = P_charge
+            EV_load_array[:,22*4-1:] = P_charge
+            EV_load_array = EV_load_array.reshape(365*96)
+            P_load_array = P_load_array + EV_load_array
+        else:
+            charge_time = 24-(EV_average_home_arrival_time_index - EV_average_home_departure_time_index)/4
+            P_charge = np.min([EV_average_energy_consumption*EV_average_distance_traveled_per_day/charge_time,P_bat_EV_charge_max])*1000              #W
+            EV_load_array[:,0:EV_average_home_departure_time_index] = P_charge
+            EV_load_array[:,EV_average_home_arrival_time_index:] = P_charge
+            EV_load_array = EV_load_array.reshape(365*96)
+            P_load_array = P_load_array + EV_load_array
 
 
     """# Power modeling calculations"""
@@ -154,7 +175,7 @@ def run_power_modeling(Flat_roof_case,Battery_case,Southern_orientation_case,EV_
         P_direct_consumption_array = P_inverter_array - P_injection_array
         E_battery_array = np.zeros(P_inverter_array.shape[0])
 
-    else:
+    elif EV_case!=3:
         E_bat = 0
 
         P_offtake_array = np.zeros(P_inverter_array.shape[0])
@@ -209,6 +230,105 @@ def run_power_modeling(Flat_roof_case,Battery_case,Southern_orientation_case,EV_
             P_injection_array[t] = P_injection
             P_direct_consumption_array[t] = P_direct_consumption
             E_battery_array[t] = E_bat
+
+    else:
+        E_bat = 0
+        E_bat_EV = 0
+
+        P_offtake_array = np.zeros(P_inverter_array.shape[0])
+        P_injection_array = np.zeros(P_inverter_array.shape[0])
+        P_direct_consumption_array = np.zeros(P_inverter_array.shape[0])
+        E_battery_array = np.zeros(P_inverter_array.shape[0])
+
+        for t in range(P_inverter_array.shape[0]):
+            P_load = P_load_array[t]
+
+            t_day = t%96
+            if t_day == EV_average_home_arrival_time_index:
+                E_bat_EV = E_bat_EV_max - EV_average_energy_consumption*EV_average_distance_traveled_per_day        #kWh
+
+            if (t_day > EV_average_home_arrival_time_index and t_day<96) or (t_day > 0 and t_day<EV_average_home_departure_time_index):
+                charge_time_necessary = np.floor(E_bat_EV/P_bat_EV_charge_max).astype(int)*4
+                if t_day>EV_average_home_arrival_time_index:
+                    charge_time_available = (96-t_day)+EV_average_home_departure_time_index
+                else:
+                    charge_time_available = EV_average_home_departure_time_index - t_day
+                if charge_time_available < charge_time_necessary:
+                    EV_battery_is_available = False
+                    P_load+= P_bat_EV_charge_max
+                else:
+                    EV_battery_is_available = True
+            else:
+                EV_battery_is_available = False
+
+            # print(t)
+            if P_inverter_array[t] > P_inverter_max:
+                P_inverter = P_inverter_max
+            else:
+                P_inverter = P_inverter_array[t]
+
+            if P_inverter > P_load:
+                P_direct_consumption = P_load                           #Consume
+                P_excess = P_inverter - P_load
+                P_offtake = 0
+
+                if E_bat < E_bat_max:                                   #battery not full yet
+
+                    P_charge_max = np.min([P_bat_charge_max,(E_bat_max-E_bat)*3600*1000/delta_t])
+
+                    if P_excess > P_charge_max:
+                        P_bat_charge = P_charge_max
+                        E_bat += (P_bat_charge/1000)*(delta_t/3600)                   #charge battery
+                        P_injection = P_excess - P_bat_charge/eta_bat
+                    else:
+                        P_bat_charge = P_excess
+                        E_bat += (P_bat_charge/1000)*(delta_t/3600)*eta_bat          #charge battery
+                        P_injection = 0
+                elif (E_bat_EV < E_bat_EV_max) and EV_battery_is_available:
+                    P_charge_EV_max = np.min([P_bat_EV_charge_max,(E_bat_EV_max-E_bat_EV)*3600*1000/delta_t])
+
+                    if P_excess > P_charge_EV_max:
+                        P_bat_EV_charge = P_charge_EV_max
+                        E_bat_EV += (P_bat_EV_charge/1000)*(delta_t/3600)                   #charge battery
+                        P_injection = P_excess - P_bat_EV_charge/eta_bat_EV
+                    else:
+                        P_bat_EV_charge = P_excess
+                        E_bat += (P_bat_EV_charge/1000)*(delta_t/3600)*eta_bat_EV          #charge battery
+                        P_injection = 0
+
+                else:
+                    P_injection = P_excess                              #inject when battery is full
+            else:                                                       #Load demand is greater then generation
+                P_direct_consumption = P_inverter
+                P_short = P_load - P_inverter
+                P_injection = 0
+                if E_bat>0:                                             #battery not empty yet
+                    P_discharge_max = np.min([P_bat_discharge_max,E_bat*3600*1000/delta_t])
+                    if P_short > P_discharge_max:
+                        P_bat_discharge = P_discharge_max
+                        E_bat -= (P_bat_discharge/1000)*(delta_t/3600)                #discharge battery
+                        P_offtake = P_short - P_bat_discharge*eta_bat
+                    else:
+                        P_bat_discharge = P_short
+                        E_bat -= (P_bat_discharge/1000)*(delta_t/3600)/eta_bat        #discharge battery
+                        P_offtake = 0
+                elif E_bat_EV>0:                                             #battery not empty yet
+                    P_EV_discharge_max = np.min([P_bat_EV_discharge_max,E_bat_EV*3600*1000/delta_t])
+                    if P_short > P_EV_discharge_max:
+                        P_bat_EV_discharge = P_EV_discharge_max
+                        E_bat_EV -= (P_bat_EV_discharge/1000)*(delta_t/3600)                #discharge battery
+                        P_offtake = P_short - P_bat_EV_discharge*eta_bat_EV
+                    else:
+                        P_bat_EV_discharge = P_short
+                        E_bat_EV -= (P_bat_EV_discharge/1000)*(delta_t/3600)/eta_bat_EV        #discharge battery
+                        P_offtake = 0
+                P_offtake = P_short
+
+            P_offtake_array[t] = P_offtake
+            P_injection_array[t] = P_injection
+            P_direct_consumption_array[t] = P_direct_consumption
+            E_battery_array[t] = E_bat
+
     P_offtake = P_offtake_array.reshape(365,96)
     P_injection = P_injection_array.reshape(365,96)
     P_direct_consumption = P_direct_consumption_array.reshape(365,96)

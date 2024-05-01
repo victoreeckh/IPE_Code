@@ -1,0 +1,4515 @@
+==========================================================================
+==========================================================================
+Current case id: 01102
+Flat roof?: False
+Battery case?: True
+Southern orientation case?: True
+Dynamic tarrif case?: False
+EV case?: 2
+==========================================================================
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 000
+Annual Power Offtake [kW]: 25774.9067
+Annual Power Injection [kW]: 33303.3972
+Annual electricity bill [EUR]: 2117.64
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 18.00
+Capex: 13232.67
+Net present value [EUR]: -7218.97
+Payback period [yr]: 38.32
+Return on investment: 0.65
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 001
+Annual Power Offtake [kW]: 25774.9067
+Annual Power Injection [kW]: 32318.1803
+Annual electricity bill [EUR]: 2123.99
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 18.00
+Capex: 13841.00
+Net present value [EUR]: -7937.87
+Payback period [yr]: 40.83
+Return on investment: 0.61
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 4.22kWh
+Current component_id id: 002
+Annual Power Offtake [kW]: 25774.9067
+Annual Power Injection [kW]: 28311.5140
+Annual electricity bill [EUR]: 2137.01
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 18.00
+Capex: 16124.33
+Net present value [EUR]: -10447.82
+Payback period [yr]: 49.46
+Return on investment: 0.51
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 2.56kWh
+Current component_id id: 003
+Annual Power Offtake [kW]: 25774.9067
+Annual Power Injection [kW]: 30518.9038
+Annual electricity bill [EUR]: 2131.24
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 18.00
+Capex: 15607.67
+Net present value [EUR]: -9830.80
+Payback period [yr]: 47.05
+Return on investment: 0.53
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 5.12kWh
+Current component_id id: 004
+Annual Power Offtake [kW]: 25774.9067
+Annual Power Injection [kW]: 27182.9153
+Annual electricity bill [EUR]: 2139.47
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 18.00
+Capex: 16907.67
+Net present value [EUR]: -11274.07
+Payback period [yr]: 52.26
+Return on investment: 0.48
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: SMA - SMA Home Storage - 3.28kWh
+Current component_id id: 005
+Annual Power Offtake [kW]: 25774.9067
+Annual Power Injection [kW]: 29654.9905
+Annual electricity bill [EUR]: 2133.48
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 18.00
+Capex: 14914.33
+Net present value [EUR]: -9176.45
+Payback period [yr]: 45.26
+Return on investment: 0.55
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: SMA - SMA Home Storage - 6.56kWh
+Current component_id id: 006
+Annual Power Offtake [kW]: 25774.9067
+Annual Power Injection [kW]: 25627.8400
+Annual electricity bill [EUR]: 2140.60
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 18.00
+Capex: 17046.00
+Net present value [EUR]: -11432.15
+Payback period [yr]: 52.87
+Return on investment: 0.47
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: SMA - SMA Home Storage - 9.84kWh
+Current component_id id: 007
+Annual Power Offtake [kW]: 25774.9067
+Annual Power Injection [kW]: 21955.4696
+Annual electricity bill [EUR]: 2143.28
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 18.00
+Capex: 19424.33
+Net present value [EUR]: -13857.14
+Payback period [yr]: 60.76
+Return on investment: 0.41
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: SMA - SMA Home Storage - 13.12kWh
+Current component_id id: 008
+Annual Power Offtake [kW]: 25774.9067
+Annual Power Injection [kW]: 18588.0551
+Annual electricity bill [EUR]: 2145.77
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 18.00
+Capex: 21801.00
+Net present value [EUR]: -16277.05
+Payback period [yr]: 68.72
+Return on investment: 0.36
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: SMA - SMA Home Storage - 16.4kWh
+Current component_id id: 009
+Annual Power Offtake [kW]: 25774.9067
+Annual Power Injection [kW]: 16214.3377
+Annual electricity bill [EUR]: 2147.47
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 18.00
+Capex: 24179.33
+Net present value [EUR]: -18685.12
+Payback period [yr]: 76.63
+Return on investment: 0.33
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 010
+Annual Power Offtake [kW]: 25476.8466
+Annual Power Injection [kW]: 42997.6445
+Annual electricity bill [EUR]: 2078.13
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 22.00
+Capex: 12347.33
+Net present value [EUR]: -5645.64
+Payback period [yr]: 32.08
+Return on investment: 0.78
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 011
+Annual Power Offtake [kW]: 25476.8466
+Annual Power Injection [kW]: 42003.3280
+Annual electricity bill [EUR]: 2084.49
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 22.00
+Capex: 12955.67
+Net present value [EUR]: -6364.67
+Payback period [yr]: 34.23
+Return on investment: 0.73
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 4.22kWh
+Current component_id id: 012
+Annual Power Offtake [kW]: 25476.8466
+Annual Power Injection [kW]: 37846.0280
+Annual electricity bill [EUR]: 2101.11
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 22.00
+Capex: 15239.00
+Net present value [EUR]: -8937.39
+Payback period [yr]: 42.11
+Return on investment: 0.59
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 2.56kWh
+Current component_id id: 013
+Annual Power Offtake [kW]: 25476.8466
+Annual Power Injection [kW]: 40129.9091
+Annual electricity bill [EUR]: 2095.29
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 22.00
+Capex: 14722.33
+Net present value [EUR]: -8319.50
+Payback period [yr]: 40.04
+Return on investment: 0.62
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 5.12kWh
+Current component_id id: 014
+Annual Power Offtake [kW]: 25476.8466
+Annual Power Injection [kW]: 36650.2636
+Annual electricity bill [EUR]: 2104.23
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 22.00
+Capex: 16022.33
+Net present value [EUR]: -9775.12
+Payback period [yr]: 44.66
+Return on investment: 0.56
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 3.28kWh
+Current component_id id: 015
+Annual Power Offtake [kW]: 25476.8466
+Annual Power Injection [kW]: 39237.1553
+Annual electricity bill [EUR]: 2097.56
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 22.00
+Capex: 14029.00
+Net present value [EUR]: -7665.63
+Payback period [yr]: 38.39
+Return on investment: 0.65
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 6.56kWh
+Current component_id id: 016
+Annual Power Offtake [kW]: 25476.8466
+Annual Power Injection [kW]: 35004.3275
+Annual electricity bill [EUR]: 2108.43
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 22.00
+Capex: 16160.67
+Net present value [EUR]: -9986.54
+Payback period [yr]: 45.58
+Return on investment: 0.55
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 9.84kWh
+Current component_id id: 017
+Annual Power Offtake [kW]: 25476.8466
+Annual Power Injection [kW]: 31129.7368
+Annual electricity bill [EUR]: 2111.23
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 22.00
+Capex: 18539.00
+Net present value [EUR]: -12413.70
+Payback period [yr]: 52.70
+Return on investment: 0.47
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 13.12kWh
+Current component_id id: 018
+Annual Power Offtake [kW]: 25476.8466
+Annual Power Injection [kW]: 27530.1455
+Annual electricity bill [EUR]: 2113.83
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 22.00
+Capex: 20915.67
+Net present value [EUR]: -14835.60
+Payback period [yr]: 59.90
+Return on investment: 0.42
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 16.4kWh
+Current component_id id: 019
+Annual Power Offtake [kW]: 25476.8466
+Annual Power Injection [kW]: 25014.4452
+Annual electricity bill [EUR]: 2115.61
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 22.00
+Capex: 23294.00
+Net present value [EUR]: -17244.85
+Payback period [yr]: 67.05
+Return on investment: 0.37
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 020
+Annual Power Offtake [kW]: 25212.0517
+Annual Power Injection [kW]: 53844.7160
+Annual electricity bill [EUR]: 2039.84
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 27.00
+Capex: 13899.00
+Net present value [EUR]: -6530.60
+Payback period [yr]: 32.85
+Return on investment: 0.76
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 021
+Annual Power Offtake [kW]: 25212.0517
+Annual Power Injection [kW]: 52833.1971
+Annual electricity bill [EUR]: 2046.98
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 27.00
+Capex: 14507.33
+Net present value [EUR]: -7263.15
+Payback period [yr]: 34.87
+Return on investment: 0.72
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 4.22kWh
+Current component_id id: 022
+Annual Power Offtake [kW]: 25212.0517
+Annual Power Injection [kW]: 48544.5112
+Annual electricity bill [EUR]: 2067.70
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 27.00
+Capex: 16790.67
+Net present value [EUR]: -9907.35
+Payback period [yr]: 42.48
+Return on investment: 0.59
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 2.56kWh
+Current component_id id: 023
+Annual Power Offtake [kW]: 25212.0517
+Annual Power Injection [kW]: 50904.1551
+Annual electricity bill [EUR]: 2059.68
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 27.00
+Capex: 16274.00
+Net present value [EUR]: -9250.98
+Payback period [yr]: 40.35
+Return on investment: 0.62
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 5.12kWh
+Current component_id id: 024
+Annual Power Offtake [kW]: 25212.0517
+Annual Power Injection [kW]: 47310.5108
+Annual electricity bill [EUR]: 2070.84
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 27.00
+Capex: 17574.00
+Net present value [EUR]: -10745.35
+Payback period [yr]: 44.81
+Return on investment: 0.56
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 3.28kWh
+Current component_id id: 025
+Annual Power Offtake [kW]: 25212.0517
+Annual Power Injection [kW]: 49981.5538
+Annual electricity bill [EUR]: 2064.11
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 27.00
+Capex: 15580.67
+Net present value [EUR]: -8634.85
+Payback period [yr]: 39.06
+Return on investment: 0.64
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 6.56kWh
+Current component_id id: 026
+Annual Power Offtake [kW]: 25212.0517
+Annual Power Injection [kW]: 45589.8116
+Annual electricity bill [EUR]: 2075.31
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 27.00
+Capex: 17712.33
+Net present value [EUR]: -10961.56
+Payback period [yr]: 45.69
+Return on investment: 0.55
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 9.84kWh
+Current component_id id: 027
+Annual Power Offtake [kW]: 25212.0517
+Annual Power Injection [kW]: 41523.2052
+Annual electricity bill [EUR]: 2082.15
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 27.00
+Capex: 20090.67
+Net present value [EUR]: -13458.90
+Payback period [yr]: 52.75
+Return on investment: 0.47
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 13.12kWh
+Current component_id id: 028
+Annual Power Offtake [kW]: 25212.0517
+Annual Power Injection [kW]: 37736.0696
+Annual electricity bill [EUR]: 2084.87
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 27.00
+Capex: 22467.33
+Net present value [EUR]: -15883.03
+Payback period [yr]: 59.42
+Return on investment: 0.42
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 16.4kWh
+Current component_id id: 029
+Annual Power Offtake [kW]: 25212.0517
+Annual Power Injection [kW]: 35079.5536
+Annual electricity bill [EUR]: 2086.70
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 27.00
+Capex: 24845.67
+Net present value [EUR]: -18293.19
+Payback period [yr]: 66.03
+Return on investment: 0.38
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 030
+Annual Power Offtake [kW]: 24850.4729
+Annual Power Injection [kW]: 73981.1115
+Annual electricity bill [EUR]: 1971.90
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 36.00
+Capex: 16748.67
+Net present value [EUR]: -8197.16
+Payback period [yr]: 34.10
+Return on investment: 0.73
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 031
+Annual Power Offtake [kW]: 24850.4729
+Annual Power Injection [kW]: 72944.9770
+Annual electricity bill [EUR]: 1979.76
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 36.00
+Capex: 17357.00
+Net present value [EUR]: -8942.30
+Payback period [yr]: 35.92
+Return on investment: 0.70
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 4.22kWh
+Current component_id id: 032
+Annual Power Offtake [kW]: 24850.4729
+Annual Power Injection [kW]: 68480.5932
+Annual electricity bill [EUR]: 2008.94
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 36.00
+Capex: 19640.33
+Net present value [EUR]: -11733.74
+Payback period [yr]: 43.26
+Return on investment: 0.58
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 2.56kWh
+Current component_id id: 033
+Annual Power Offtake [kW]: 24850.4729
+Annual Power Injection [kW]: 70958.4680
+Annual electricity bill [EUR]: 1992.49
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 36.00
+Capex: 19123.67
+Net present value [EUR]: -10930.60
+Payback period [yr]: 40.64
+Return on investment: 0.62
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 5.12kWh
+Current component_id id: 034
+Annual Power Offtake [kW]: 24850.4729
+Annual Power Injection [kW]: 67183.4166
+Annual electricity bill [EUR]: 2016.31
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 36.00
+Capex: 20423.67
+Net present value [EUR]: -12645.53
+Payback period [yr]: 45.72
+Return on investment: 0.55
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: SMA - SMA Home Storage - 3.28kWh
+Current component_id id: 035
+Annual Power Offtake [kW]: 24850.4729
+Annual Power Injection [kW]: 69992.6868
+Annual electricity bill [EUR]: 1998.67
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 36.00
+Capex: 18430.33
+Net present value [EUR]: -10344.88
+Payback period [yr]: 39.69
+Return on investment: 0.63
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: SMA - SMA Home Storage - 6.56kWh
+Current component_id id: 036
+Annual Power Offtake [kW]: 24850.4729
+Annual Power Injection [kW]: 65377.2546
+Annual electricity bill [EUR]: 2020.84
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 36.00
+Capex: 20562.00
+Net present value [EUR]: -12862.71
+Payback period [yr]: 46.50
+Return on investment: 0.54
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: SMA - SMA Home Storage - 9.84kWh
+Current component_id id: 037
+Annual Power Offtake [kW]: 24850.4729
+Annual Power Injection [kW]: 61064.0770
+Annual electricity bill [EUR]: 2031.97
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 36.00
+Capex: 22940.33
+Net present value [EUR]: -15434.83
+Payback period [yr]: 53.22
+Return on investment: 0.47
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: SMA - SMA Home Storage - 13.12kWh
+Current component_id id: 038
+Annual Power Offtake [kW]: 24850.4729
+Annual Power Injection [kW]: 57063.4254
+Annual electricity bill [EUR]: 2038.22
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 36.00
+Capex: 25317.00
+Net present value [EUR]: -17920.26
+Payback period [yr]: 59.60
+Return on investment: 0.42
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: SMA - SMA Home Storage - 16.4kWh
+Current component_id id: 039
+Annual Power Offtake [kW]: 24850.4729
+Annual Power Injection [kW]: 54231.6492
+Annual electricity bill [EUR]: 2040.14
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 36.00
+Capex: 27695.33
+Net present value [EUR]: -20332.09
+Payback period [yr]: 65.50
+Return on investment: 0.38
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 040
+Annual Power Offtake [kW]: 24854.1635
+Annual Power Injection [kW]: 76472.8755
+Annual electricity bill [EUR]: 1970.80
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 45.00
+Capex: 19381.67
+Net present value [EUR]: -10810.98
+Payback period [yr]: 39.38
+Return on investment: 0.63
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 041
+Annual Power Offtake [kW]: 24854.1635
+Annual Power Injection [kW]: 75436.8285
+Annual electricity bill [EUR]: 1978.67
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 45.00
+Capex: 19990.00
+Net present value [EUR]: -11556.28
+Payback period [yr]: 41.27
+Return on investment: 0.61
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 4.22kWh
+Current component_id id: 042
+Annual Power Offtake [kW]: 24854.1635
+Annual Power Injection [kW]: 70974.0804
+Annual electricity bill [EUR]: 2007.84
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 45.00
+Capex: 22273.33
+Net present value [EUR]: -14347.70
+Payback period [yr]: 48.94
+Return on investment: 0.51
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 2.56kWh
+Current component_id id: 043
+Annual Power Offtake [kW]: 24854.1635
+Annual Power Injection [kW]: 73450.6909
+Annual electricity bill [EUR]: 1991.39
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 45.00
+Capex: 21756.67
+Net present value [EUR]: -13544.58
+Payback period [yr]: 46.13
+Return on investment: 0.54
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 5.12kWh
+Current component_id id: 044
+Annual Power Offtake [kW]: 24854.1635
+Annual Power Injection [kW]: 69677.5583
+Annual electricity bill [EUR]: 2015.05
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 45.00
+Capex: 23056.67
+Net present value [EUR]: -15256.51
+Payback period [yr]: 51.47
+Return on investment: 0.49
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: SMA - SMA Home Storage - 3.28kWh
+Current component_id id: 045
+Annual Power Offtake [kW]: 24854.1635
+Annual Power Injection [kW]: 72485.6490
+Annual electricity bill [EUR]: 1997.57
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 45.00
+Capex: 21063.33
+Net present value [EUR]: -12958.83
+Payback period [yr]: 45.26
+Return on investment: 0.55
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: SMA - SMA Home Storage - 6.56kWh
+Current component_id id: 046
+Annual Power Offtake [kW]: 24854.1635
+Annual Power Injection [kW]: 67872.6918
+Annual electricity bill [EUR]: 2019.58
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 45.00
+Capex: 23195.00
+Net present value [EUR]: -15473.66
+Payback period [yr]: 52.31
+Return on investment: 0.48
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: SMA - SMA Home Storage - 9.84kWh
+Current component_id id: 047
+Annual Power Offtake [kW]: 24854.1635
+Annual Power Injection [kW]: 63562.0839
+Annual electricity bill [EUR]: 2030.70
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 45.00
+Capex: 25573.33
+Net present value [EUR]: -18045.77
+Payback period [yr]: 59.16
+Return on investment: 0.42
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: SMA - SMA Home Storage - 13.12kWh
+Current component_id id: 048
+Annual Power Offtake [kW]: 24854.1635
+Annual Power Injection [kW]: 59563.1794
+Annual electricity bill [EUR]: 2036.86
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 45.00
+Capex: 27950.00
+Net present value [EUR]: -20529.57
+Payback period [yr]: 65.59
+Return on investment: 0.38
+==========================================================================
+PV component used: Canadian Solar - HiKu6 Mono PERC
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: SMA - SMA Home Storage - 16.4kWh
+Current component_id id: 049
+Annual Power Offtake [kW]: 24854.1635
+Annual Power Injection [kW]: 56732.6670
+Annual electricity bill [EUR]: 2038.78
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 45.00
+Capex: 30328.33
+Net present value [EUR]: -22941.39
+Payback period [yr]: 71.49
+Return on investment: 0.35
+==========================================================================
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 100
+Annual Power Offtake [kW]: 25772.4151
+Annual Power Injection [kW]: 33059.5320
+Annual electricity bill [EUR]: 2117.27
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 23.00
+Capex: 12531.67
+Net present value [EUR]: -6511.41
+Payback period [yr]: 36.25
+Return on investment: 0.69
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 101
+Annual Power Offtake [kW]: 25772.4151
+Annual Power Injection [kW]: 32073.1197
+Annual electricity bill [EUR]: 2123.62
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 23.00
+Capex: 13140.00
+Net present value [EUR]: -7230.31
+Payback period [yr]: 38.72
+Return on investment: 0.65
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 4.22kWh
+Current component_id id: 102
+Annual Power Offtake [kW]: 25772.4151
+Annual Power Injection [kW]: 28064.4053
+Annual electricity bill [EUR]: 2136.70
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 23.00
+Capex: 15423.33
+Net present value [EUR]: -9741.45
+Payback period [yr]: 47.27
+Return on investment: 0.53
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 2.56kWh
+Current component_id id: 103
+Annual Power Offtake [kW]: 25772.4151
+Annual Power Injection [kW]: 30273.0591
+Annual electricity bill [EUR]: 2130.93
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 23.00
+Capex: 14906.67
+Net present value [EUR]: -9124.41
+Payback period [yr]: 44.89
+Return on investment: 0.56
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 5.12kWh
+Current component_id id: 104
+Annual Power Offtake [kW]: 25772.4151
+Annual Power Injection [kW]: 26935.3108
+Annual electricity bill [EUR]: 2139.18
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 23.00
+Capex: 16206.67
+Net present value [EUR]: -10568.00
+Payback period [yr]: 50.05
+Return on investment: 0.50
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: SMA - SMA Home Storage - 3.28kWh
+Current component_id id: 105
+Annual Power Offtake [kW]: 25772.4151
+Annual Power Injection [kW]: 29408.7307
+Annual electricity bill [EUR]: 2133.17
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 23.00
+Capex: 14213.33
+Net present value [EUR]: -8470.07
+Payback period [yr]: 43.09
+Return on investment: 0.58
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: SMA - SMA Home Storage - 6.56kWh
+Current component_id id: 106
+Annual Power Offtake [kW]: 25772.4151
+Annual Power Injection [kW]: 25379.4897
+Annual electricity bill [EUR]: 2140.31
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 23.00
+Capex: 16345.00
+Net present value [EUR]: -10726.09
+Payback period [yr]: 50.65
+Return on investment: 0.49
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: SMA - SMA Home Storage - 9.84kWh
+Current component_id id: 107
+Annual Power Offtake [kW]: 25772.4151
+Annual Power Injection [kW]: 21707.5063
+Annual electricity bill [EUR]: 2142.99
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 23.00
+Capex: 18723.33
+Net present value [EUR]: -13151.10
+Payback period [yr]: 58.51
+Return on investment: 0.43
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: SMA - SMA Home Storage - 13.12kWh
+Current component_id id: 108
+Annual Power Offtake [kW]: 25772.4151
+Annual Power Injection [kW]: 18342.3006
+Annual electricity bill [EUR]: 2145.48
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 23.00
+Capex: 21100.00
+Net present value [EUR]: -15571.00
+Payback period [yr]: 66.45
+Return on investment: 0.38
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: SMA - SMA Home Storage - 16.4kWh
+Current component_id id: 109
+Annual Power Offtake [kW]: 25772.4151
+Annual Power Injection [kW]: 15971.5443
+Annual electricity bill [EUR]: 2147.18
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 23.00
+Capex: 23478.33
+Net present value [EUR]: -17979.06
+Payback period [yr]: 74.34
+Return on investment: 0.34
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 110
+Annual Power Offtake [kW]: 25433.3081
+Annual Power Injection [kW]: 43888.7660
+Annual electricity bill [EUR]: 2072.62
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 29.00
+Capex: 11628.33
+Net present value [EUR]: -4830.63
+Payback period [yr]: 29.79
+Return on investment: 0.84
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 111
+Annual Power Offtake [kW]: 25433.3081
+Annual Power Injection [kW]: 42892.0418
+Annual electricity bill [EUR]: 2078.90
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 29.00
+Capex: 12236.67
+Net present value [EUR]: -5548.28
+Payback period [yr]: 31.86
+Return on investment: 0.78
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 4.22kWh
+Current component_id id: 112
+Annual Power Offtake [kW]: 25433.3081
+Annual Power Injection [kW]: 38712.6535
+Annual electricity bill [EUR]: 2096.17
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 29.00
+Capex: 14520.00
+Net present value [EUR]: -8132.38
+Payback period [yr]: 39.58
+Return on investment: 0.63
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 2.56kWh
+Current component_id id: 113
+Annual Power Offtake [kW]: 25433.3081
+Annual Power Injection [kW]: 41006.3652
+Annual electricity bill [EUR]: 2090.35
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 29.00
+Capex: 14003.33
+Net present value [EUR]: -7514.31
+Payback period [yr]: 37.58
+Return on investment: 0.67
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 5.12kWh
+Current component_id id: 114
+Annual Power Offtake [kW]: 25433.3081
+Annual Power Injection [kW]: 37509.0274
+Annual electricity bill [EUR]: 2099.30
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 29.00
+Capex: 15303.33
+Net present value [EUR]: -8970.18
+Payback period [yr]: 42.08
+Return on investment: 0.59
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 3.28kWh
+Current component_id id: 115
+Annual Power Offtake [kW]: 25433.3081
+Annual Power Injection [kW]: 40109.9727
+Annual electricity bill [EUR]: 2092.62
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 29.00
+Capex: 13310.00
+Net present value [EUR]: -6860.53
+Payback period [yr]: 35.94
+Return on investment: 0.70
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 6.56kWh
+Current component_id id: 116
+Annual Power Offtake [kW]: 25433.3081
+Annual Power Injection [kW]: 35845.5631
+Annual electricity bill [EUR]: 2103.73
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 29.00
+Capex: 15441.67
+Net present value [EUR]: -9185.72
+Payback period [yr]: 42.98
+Return on investment: 0.58
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 9.84kWh
+Current component_id id: 117
+Annual Power Offtake [kW]: 25433.3081
+Annual Power Injection [kW]: 31945.8230
+Annual electricity bill [EUR]: 2106.91
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 29.00
+Capex: 17820.00
+Net present value [EUR]: -11619.47
+Payback period [yr]: 50.04
+Return on investment: 0.50
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 13.12kWh
+Current component_id id: 118
+Annual Power Offtake [kW]: 25433.3081
+Annual Power Injection [kW]: 28314.9837
+Annual electricity bill [EUR]: 2109.54
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 29.00
+Capex: 20196.67
+Net present value [EUR]: -14041.84
+Payback period [yr]: 57.14
+Return on investment: 0.44
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 16.4kWh
+Current component_id id: 119
+Annual Power Offtake [kW]: 25433.3081
+Annual Power Injection [kW]: 25785.7200
+Annual electricity bill [EUR]: 2111.31
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 29.00
+Capex: 22575.00
+Net present value [EUR]: -16451.04
+Payback period [yr]: 64.19
+Return on investment: 0.39
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 120
+Annual Power Offtake [kW]: 25226.9716
+Annual Power Injection [kW]: 52814.9365
+Annual electricity bill [EUR]: 2042.34
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 34.00
+Capex: 12770.00
+Net present value [EUR]: -5445.10
+Payback period [yr]: 30.36
+Return on investment: 0.82
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 121
+Annual Power Offtake [kW]: 25226.9716
+Annual Power Injection [kW]: 51804.2582
+Annual electricity bill [EUR]: 2049.32
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 34.00
+Capex: 13378.33
+Net present value [EUR]: -6174.86
+Payback period [yr]: 32.34
+Return on investment: 0.77
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 4.22kWh
+Current component_id id: 122
+Annual Power Offtake [kW]: 25226.9716
+Annual Power Injection [kW]: 47521.7405
+Annual electricity bill [EUR]: 2069.83
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 34.00
+Capex: 15661.67
+Net present value [EUR]: -8815.33
+Payback period [yr]: 39.83
+Return on investment: 0.63
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 2.56kWh
+Current component_id id: 123
+Annual Power Offtake [kW]: 25226.9716
+Annual Power Injection [kW]: 49876.9707
+Annual electricity bill [EUR]: 2062.02
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 34.00
+Capex: 15145.00
+Net present value [EUR]: -8162.69
+Payback period [yr]: 37.77
+Return on investment: 0.66
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 5.12kWh
+Current component_id id: 124
+Annual Power Offtake [kW]: 25226.9716
+Annual Power Injection [kW]: 46289.5365
+Annual electricity bill [EUR]: 2072.96
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 34.00
+Capex: 16445.00
+Net present value [EUR]: -9653.31
+Payback period [yr]: 42.16
+Return on investment: 0.59
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 3.28kWh
+Current component_id id: 125
+Annual Power Offtake [kW]: 25226.9716
+Annual Power Injection [kW]: 48956.0255
+Annual electricity bill [EUR]: 2066.24
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 34.00
+Capex: 14451.67
+Net present value [EUR]: -7542.86
+Payback period [yr]: 36.42
+Return on investment: 0.69
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 6.56kWh
+Current component_id id: 126
+Annual Power Offtake [kW]: 25226.9716
+Annual Power Injection [kW]: 44572.4240
+Annual electricity bill [EUR]: 2077.43
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 34.00
+Capex: 16583.33
+Net present value [EUR]: -9869.49
+Payback period [yr]: 43.01
+Return on investment: 0.58
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 9.84kWh
+Current component_id id: 127
+Annual Power Offtake [kW]: 25226.9716
+Annual Power Injection [kW]: 40517.4762
+Annual electricity bill [EUR]: 2083.97
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 34.00
+Capex: 18961.67
+Net present value [EUR]: -12361.57
+Payback period [yr]: 50.03
+Return on investment: 0.50
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 13.12kWh
+Current component_id id: 128
+Annual Power Offtake [kW]: 25226.9716
+Annual Power Injection [kW]: 36741.3329
+Annual electricity bill [EUR]: 2086.69
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 34.00
+Capex: 21338.33
+Net present value [EUR]: -14785.63
+Payback period [yr]: 56.70
+Return on investment: 0.44
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 16.4kWh
+Current component_id id: 129
+Annual Power Offtake [kW]: 25226.9716
+Annual Power Injection [kW]: 34093.7211
+Annual electricity bill [EUR]: 2088.51
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 34.00
+Capex: 23716.67
+Net present value [EUR]: -17195.64
+Payback period [yr]: 63.33
+Return on investment: 0.39
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 130
+Annual Power Offtake [kW]: 24872.8916
+Annual Power Injection [kW]: 72143.8998
+Annual electricity bill [EUR]: 1976.79
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 46.00
+Capex: 15346.67
+Net present value [EUR]: -6880.27
+Payback period [yr]: 31.56
+Return on investment: 0.79
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 131
+Annual Power Offtake [kW]: 24872.8916
+Annual Power Injection [kW]: 71108.6756
+Annual electricity bill [EUR]: 1984.69
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 46.00
+Capex: 15955.00
+Net present value [EUR]: -7626.24
+Payback period [yr]: 33.36
+Return on investment: 0.75
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 4.22kWh
+Current component_id id: 132
+Annual Power Offtake [kW]: 24872.8916
+Annual Power Injection [kW]: 66653.8028
+Annual electricity bill [EUR]: 2013.87
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 46.00
+Capex: 18238.33
+Net present value [EUR]: -10417.60
+Payback period [yr]: 40.61
+Return on investment: 0.62
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 2.56kWh
+Current component_id id: 133
+Annual Power Offtake [kW]: 24872.8916
+Annual Power Injection [kW]: 69125.0549
+Annual electricity bill [EUR]: 1997.42
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 46.00
+Capex: 17721.67
+Net present value [EUR]: -9614.55
+Payback period [yr]: 38.06
+Return on investment: 0.66
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 5.12kWh
+Current component_id id: 134
+Annual Power Offtake [kW]: 24872.8916
+Annual Power Injection [kW]: 65360.6285
+Annual electricity bill [EUR]: 2020.31
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 46.00
+Capex: 19021.67
+Net present value [EUR]: -11313.14
+Payback period [yr]: 42.97
+Return on investment: 0.58
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: SMA - SMA Home Storage - 3.28kWh
+Current component_id id: 135
+Annual Power Offtake [kW]: 24872.8916
+Annual Power Injection [kW]: 68161.9814
+Annual electricity bill [EUR]: 2003.59
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 46.00
+Capex: 17028.33
+Net present value [EUR]: -9028.66
+Payback period [yr]: 37.07
+Return on investment: 0.67
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: SMA - SMA Home Storage - 6.56kWh
+Current component_id id: 136
+Annual Power Offtake [kW]: 24872.8916
+Annual Power Injection [kW]: 63559.6010
+Annual electricity bill [EUR]: 2024.83
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 46.00
+Capex: 19160.00
+Net present value [EUR]: -11530.22
+Payback period [yr]: 43.73
+Return on investment: 0.57
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: SMA - SMA Home Storage - 9.84kWh
+Current component_id id: 137
+Annual Power Offtake [kW]: 24872.8916
+Annual Power Injection [kW]: 59262.2183
+Annual electricity bill [EUR]: 2035.96
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 46.00
+Capex: 21538.33
+Net present value [EUR]: -14102.21
+Payback period [yr]: 50.44
+Return on investment: 0.50
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: SMA - SMA Home Storage - 13.12kWh
+Current component_id id: 138
+Annual Power Offtake [kW]: 24872.8916
+Annual Power Injection [kW]: 55273.0544
+Annual electricity bill [EUR]: 2041.58
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 46.00
+Capex: 23915.00
+Net present value [EUR]: -16576.75
+Payback period [yr]: 56.75
+Return on investment: 0.44
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: SMA - SMA Home Storage - 16.4kWh
+Current component_id id: 139
+Annual Power Offtake [kW]: 24872.8916
+Annual Power Injection [kW]: 52449.5566
+Annual electricity bill [EUR]: 2043.50
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 46.00
+Capex: 26293.33
+Net present value [EUR]: -18988.57
+Payback period [yr]: 62.68
+Return on investment: 0.40
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 140
+Annual Power Offtake [kW]: 24876.5958
+Annual Power Injection [kW]: 73991.8969
+Annual electricity bill [EUR]: 1976.15
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 58.00
+Capex: 17706.67
+Net present value [EUR]: -9229.21
+Payback period [yr]: 36.37
+Return on investment: 0.69
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 141
+Annual Power Offtake [kW]: 24876.5958
+Annual Power Injection [kW]: 72956.8951
+Annual electricity bill [EUR]: 1984.07
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 58.00
+Capex: 18315.00
+Net present value [EUR]: -9975.33
+Payback period [yr]: 38.24
+Return on investment: 0.65
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 4.22kWh
+Current component_id id: 142
+Annual Power Offtake [kW]: 24876.5958
+Annual Power Injection [kW]: 68503.6839
+Annual electricity bill [EUR]: 2013.24
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 58.00
+Capex: 20598.33
+Net present value [EUR]: -12766.67
+Payback period [yr]: 45.80
+Return on investment: 0.55
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 2.56kWh
+Current component_id id: 143
+Annual Power Offtake [kW]: 24876.5958
+Annual Power Injection [kW]: 70973.8244
+Annual electricity bill [EUR]: 1996.79
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 58.00
+Capex: 20081.67
+Net present value [EUR]: -11963.64
+Payback period [yr]: 43.08
+Return on investment: 0.58
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 5.12kWh
+Current component_id id: 144
+Annual Power Offtake [kW]: 24876.5958
+Annual Power Injection [kW]: 67211.4847
+Annual electricity bill [EUR]: 2019.52
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 58.00
+Capex: 21381.67
+Net present value [EUR]: -13659.28
+Payback period [yr]: 48.21
+Return on investment: 0.52
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: SMA - SMA Home Storage - 3.28kWh
+Current component_id id: 145
+Annual Power Offtake [kW]: 24876.5958
+Annual Power Injection [kW]: 70011.1184
+Annual electricity bill [EUR]: 2002.96
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 58.00
+Capex: 19388.33
+Net present value [EUR]: -11377.72
+Payback period [yr]: 42.15
+Return on investment: 0.59
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: SMA - SMA Home Storage - 6.56kWh
+Current component_id id: 146
+Annual Power Offtake [kW]: 24876.5958
+Annual Power Injection [kW]: 65411.5437
+Annual electricity bill [EUR]: 2024.04
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 58.00
+Capex: 21520.00
+Net present value [EUR]: -13876.34
+Payback period [yr]: 49.03
+Return on investment: 0.51
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: SMA - SMA Home Storage - 9.84kWh
+Current component_id id: 147
+Annual Power Offtake [kW]: 24876.5958
+Annual Power Injection [kW]: 61116.1765
+Annual electricity bill [EUR]: 2035.16
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 58.00
+Capex: 23898.33
+Net present value [EUR]: -16448.31
+Payback period [yr]: 55.86
+Return on investment: 0.45
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: SMA - SMA Home Storage - 13.12kWh
+Current component_id id: 148
+Annual Power Offtake [kW]: 24876.5958
+Annual Power Injection [kW]: 57129.4232
+Annual electricity bill [EUR]: 2040.69
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 58.00
+Capex: 26275.00
+Net present value [EUR]: -18921.25
+Payback period [yr]: 62.22
+Return on investment: 0.40
+==========================================================================
+PV component used: Canadian Solar - TOPHiKu6
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: SMA - SMA Home Storage - 16.4kWh
+Current component_id id: 149
+Annual Power Offtake [kW]: 24876.5958
+Annual Power Injection [kW]: 54306.8457
+Annual electricity bill [EUR]: 2042.61
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 58.00
+Capex: 28653.33
+Net present value [EUR]: -21333.07
+Payback period [yr]: 68.16
+Return on investment: 0.37
+==========================================================================
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 200
+Annual Power Offtake [kW]: 25786.2817
+Annual Power Injection [kW]: 33173.0191
+Annual electricity bill [EUR]: 2119.05
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 24.00
+Capex: 12326.67
+Net present value [EUR]: -6337.48
+Payback period [yr]: 35.84
+Return on investment: 0.70
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 201
+Annual Power Offtake [kW]: 25786.2817
+Annual Power Injection [kW]: 32188.9177
+Annual electricity bill [EUR]: 2125.40
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 24.00
+Capex: 12935.00
+Net present value [EUR]: -7056.36
+Payback period [yr]: 38.31
+Return on investment: 0.65
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 4.22kWh
+Current component_id id: 202
+Annual Power Offtake [kW]: 25786.2817
+Annual Power Injection [kW]: 28189.1565
+Annual electricity bill [EUR]: 2138.28
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 24.00
+Capex: 15218.33
+Net present value [EUR]: -9563.96
+Payback period [yr]: 46.87
+Return on investment: 0.53
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 2.56kWh
+Current component_id id: 203
+Annual Power Offtake [kW]: 25786.2817
+Annual Power Injection [kW]: 30392.0379
+Annual electricity bill [EUR]: 2132.52
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 24.00
+Capex: 14701.67
+Net present value [EUR]: -8946.98
+Payback period [yr]: 44.49
+Return on investment: 0.56
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 5.12kWh
+Current component_id id: 204
+Annual Power Offtake [kW]: 25786.2817
+Annual Power Injection [kW]: 27062.3177
+Annual electricity bill [EUR]: 2140.63
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 24.00
+Capex: 16001.67
+Net present value [EUR]: -10388.19
+Payback period [yr]: 49.64
+Return on investment: 0.50
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: SMA - SMA Home Storage - 3.28kWh
+Current component_id id: 205
+Annual Power Offtake [kW]: 25786.2817
+Annual Power Injection [kW]: 29529.3701
+Annual electricity bill [EUR]: 2134.75
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 24.00
+Capex: 14008.33
+Net present value [EUR]: -8292.62
+Payback period [yr]: 42.68
+Return on investment: 0.59
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: SMA - SMA Home Storage - 6.56kWh
+Current component_id id: 206
+Annual Power Offtake [kW]: 25786.2817
+Annual Power Injection [kW]: 25511.1149
+Annual electricity bill [EUR]: 2141.76
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 24.00
+Capex: 16140.00
+Net present value [EUR]: -10546.24
+Payback period [yr]: 50.24
+Return on investment: 0.50
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: SMA - SMA Home Storage - 9.84kWh
+Current component_id id: 207
+Annual Power Offtake [kW]: 25786.2817
+Annual Power Injection [kW]: 21845.8955
+Annual electricity bill [EUR]: 2144.43
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 24.00
+Capex: 18518.33
+Net present value [EUR]: -12971.14
+Payback period [yr]: 58.13
+Return on investment: 0.43
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: SMA - SMA Home Storage - 13.12kWh
+Current component_id id: 208
+Annual Power Offtake [kW]: 25786.2817
+Annual Power Injection [kW]: 18484.3165
+Annual electricity bill [EUR]: 2146.91
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 24.00
+Capex: 20895.00
+Net present value [EUR]: -15391.00
+Payback period [yr]: 66.11
+Return on investment: 0.38
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: SMA - SMA Home Storage - 16.4kWh
+Current component_id id: 209
+Annual Power Offtake [kW]: 25786.2817
+Annual Power Injection [kW]: 16112.8568
+Annual electricity bill [EUR]: 2148.62
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 24.00
+Capex: 23273.33
+Net present value [EUR]: -17799.04
+Payback period [yr]: 74.03
+Return on investment: 0.34
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 210
+Annual Power Offtake [kW]: 25458.9262
+Annual Power Injection [kW]: 43682.0636
+Annual electricity bill [EUR]: 2075.76
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 30.00
+Capex: 11333.33
+Net present value [EUR]: -4590.41
+Payback period [yr]: 29.27
+Return on investment: 0.85
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 211
+Annual Power Offtake [kW]: 25458.9262
+Annual Power Injection [kW]: 42687.0891
+Annual electricity bill [EUR]: 2082.12
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 30.00
+Capex: 11941.67
+Net present value [EUR]: -5309.45
+Payback period [yr]: 31.35
+Return on investment: 0.80
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 4.22kWh
+Current component_id id: 212
+Annual Power Offtake [kW]: 25458.9262
+Annual Power Injection [kW]: 38521.2465
+Annual electricity bill [EUR]: 2098.98
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 30.00
+Capex: 14225.00
+Net present value [EUR]: -7886.27
+Payback period [yr]: 39.08
+Return on investment: 0.64
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 2.56kWh
+Current component_id id: 213
+Annual Power Offtake [kW]: 25458.9262
+Annual Power Injection [kW]: 40809.3309
+Annual electricity bill [EUR]: 2093.16
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 30.00
+Capex: 13708.33
+Net present value [EUR]: -7268.31
+Payback period [yr]: 37.07
+Return on investment: 0.67
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 5.12kWh
+Current component_id id: 214
+Annual Power Offtake [kW]: 25458.9262
+Annual Power Injection [kW]: 37322.7236
+Annual electricity bill [EUR]: 2102.10
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 30.00
+Capex: 15008.33
+Net present value [EUR]: -8724.03
+Payback period [yr]: 41.59
+Return on investment: 0.60
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 3.28kWh
+Current component_id id: 215
+Annual Power Offtake [kW]: 25458.9262
+Annual Power Injection [kW]: 39914.8342
+Annual electricity bill [EUR]: 2095.43
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 30.00
+Capex: 13015.00
+Net present value [EUR]: -6614.48
+Payback period [yr]: 35.41
+Return on investment: 0.71
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 6.56kWh
+Current component_id id: 216
+Annual Power Offtake [kW]: 25458.9262
+Annual Power Injection [kW]: 35668.8143
+Annual electricity bill [EUR]: 2106.53
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 30.00
+Capex: 15146.67
+Net present value [EUR]: -8939.45
+Payback period [yr]: 42.49
+Return on investment: 0.59
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 9.84kWh
+Current component_id id: 217
+Annual Power Offtake [kW]: 25458.9262
+Annual Power Injection [kW]: 31783.8804
+Annual electricity bill [EUR]: 2109.37
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 30.00
+Capex: 17525.00
+Net present value [EUR]: -11367.32
+Payback period [yr]: 49.56
+Return on investment: 0.50
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 13.12kWh
+Current component_id id: 218
+Annual Power Offtake [kW]: 25458.9262
+Annual Power Injection [kW]: 28169.7877
+Annual electricity bill [EUR]: 2111.98
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 30.00
+Capex: 19901.67
+Net present value [EUR]: -13789.45
+Payback period [yr]: 56.70
+Return on investment: 0.44
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 16.4kWh
+Current component_id id: 219
+Annual Power Offtake [kW]: 25458.9262
+Annual Power Injection [kW]: 25645.5464
+Annual electricity bill [EUR]: 2113.76
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 30.00
+Capex: 22280.00
+Net present value [EUR]: -16198.66
+Payback period [yr]: 63.80
+Return on investment: 0.39
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 220
+Annual Power Offtake [kW]: 25223.1067
+Annual Power Injection [kW]: 53637.8762
+Annual electricity bill [EUR]: 2041.52
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 36.00
+Capex: 12540.00
+Net present value [EUR]: -5200.80
+Payback period [yr]: 29.75
+Return on investment: 0.84
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 221
+Annual Power Offtake [kW]: 25223.1067
+Annual Power Injection [kW]: 52627.0222
+Annual electricity bill [EUR]: 2048.48
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 36.00
+Capex: 13148.33
+Net present value [EUR]: -5930.36
+Payback period [yr]: 31.72
+Return on investment: 0.79
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 4.22kWh
+Current component_id id: 222
+Annual Power Offtake [kW]: 25223.1067
+Annual Power Injection [kW]: 48344.8041
+Annual electricity bill [EUR]: 2069.00
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 36.00
+Capex: 15431.67
+Net present value [EUR]: -8570.98
+Payback period [yr]: 39.17
+Return on investment: 0.64
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 2.56kWh
+Current component_id id: 223
+Annual Power Offtake [kW]: 25223.1067
+Annual Power Injection [kW]: 50700.1239
+Annual electricity bill [EUR]: 2061.18
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 36.00
+Capex: 14915.00
+Net present value [EUR]: -7918.18
+Payback period [yr]: 37.12
+Return on investment: 0.67
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 5.12kWh
+Current component_id id: 224
+Annual Power Offtake [kW]: 25223.1067
+Annual Power Injection [kW]: 47112.3008
+Annual electricity bill [EUR]: 2072.14
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 36.00
+Capex: 16215.00
+Net present value [EUR]: -9408.96
+Payback period [yr]: 41.49
+Return on investment: 0.60
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 3.28kWh
+Current component_id id: 225
+Annual Power Offtake [kW]: 25223.1067
+Annual Power Injection [kW]: 49779.0384
+Annual electricity bill [EUR]: 2065.41
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 36.00
+Capex: 14221.67
+Net present value [EUR]: -7298.52
+Payback period [yr]: 35.77
+Return on investment: 0.70
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 6.56kWh
+Current component_id id: 226
+Annual Power Offtake [kW]: 25223.1067
+Annual Power Injection [kW]: 45394.1707
+Annual electricity bill [EUR]: 2076.61
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 36.00
+Capex: 16353.33
+Net present value [EUR]: -9625.15
+Payback period [yr]: 42.32
+Return on investment: 0.59
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 9.84kWh
+Current component_id id: 227
+Annual Power Offtake [kW]: 25223.1067
+Annual Power Injection [kW]: 41335.7131
+Annual electricity bill [EUR]: 2083.26
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 36.00
+Capex: 18731.67
+Net present value [EUR]: -12119.32
+Payback period [yr]: 49.33
+Return on investment: 0.51
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 13.12kWh
+Current component_id id: 228
+Annual Power Offtake [kW]: 25223.1067
+Annual Power Injection [kW]: 37554.3452
+Annual electricity bill [EUR]: 2085.99
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 36.00
+Capex: 21108.33
+Net present value [EUR]: -14543.40
+Payback period [yr]: 55.99
+Return on investment: 0.45
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 16.4kWh
+Current component_id id: 229
+Annual Power Offtake [kW]: 25223.1067
+Annual Power Injection [kW]: 34903.4275
+Annual electricity bill [EUR]: 2087.81
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 36.00
+Capex: 23486.67
+Net present value [EUR]: -16953.46
+Payback period [yr]: 62.60
+Return on investment: 0.40
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 230
+Annual Power Offtake [kW]: 24939.4370
+Annual Power Injection [kW]: 69729.6019
+Annual electricity bill [EUR]: 1989.46
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 48.00
+Capex: 14936.67
+Net present value [EUR]: -6690.86
+Payback period [yr]: 31.54
+Return on investment: 0.79
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 231
+Annual Power Offtake [kW]: 24939.4370
+Annual Power Injection [kW]: 68698.0991
+Annual electricity bill [EUR]: 1997.52
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 48.00
+Capex: 15545.00
+Net present value [EUR]: -7439.61
+Payback period [yr]: 33.40
+Return on investment: 0.75
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 4.22kWh
+Current component_id id: 232
+Annual Power Offtake [kW]: 24939.4370
+Annual Power Injection [kW]: 64275.6212
+Annual electricity bill [EUR]: 2026.68
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 48.00
+Capex: 17828.33
+Net present value [EUR]: -10230.68
+Payback period [yr]: 40.86
+Return on investment: 0.61
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 2.56kWh
+Current component_id id: 233
+Annual Power Offtake [kW]: 24939.4370
+Annual Power Injection [kW]: 66725.6569
+Annual electricity bill [EUR]: 2010.25
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 48.00
+Capex: 17311.67
+Net present value [EUR]: -9427.88
+Payback period [yr]: 38.24
+Return on investment: 0.65
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 5.12kWh
+Current component_id id: 234
+Annual Power Offtake [kW]: 24939.4370
+Annual Power Injection [kW]: 62995.7272
+Annual electricity bill [EUR]: 2030.07
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 48.00
+Capex: 18611.67
+Net present value [EUR]: -11073.00
+Payback period [yr]: 42.99
+Return on investment: 0.58
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: SMA - SMA Home Storage - 3.28kWh
+Current component_id id: 235
+Annual Power Offtake [kW]: 24939.4370
+Annual Power Injection [kW]: 65768.3574
+Annual electricity bill [EUR]: 2016.38
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 48.00
+Capex: 16618.33
+Net present value [EUR]: -8841.43
+Payback period [yr]: 37.21
+Return on investment: 0.67
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: SMA - SMA Home Storage - 6.56kWh
+Current component_id id: 236
+Annual Power Offtake [kW]: 24939.4370
+Annual Power Injection [kW]: 61214.1518
+Annual electricity bill [EUR]: 2034.57
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 48.00
+Capex: 18750.00
+Net present value [EUR]: -11289.74
+Payback period [yr]: 43.76
+Return on investment: 0.57
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: SMA - SMA Home Storage - 9.84kWh
+Current component_id id: 237
+Annual Power Offtake [kW]: 24939.4370
+Annual Power Injection [kW]: 56957.6351
+Annual electricity bill [EUR]: 2045.67
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 48.00
+Capex: 21128.33
+Net present value [EUR]: -13861.34
+Payback period [yr]: 50.63
+Return on investment: 0.49
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: SMA - SMA Home Storage - 13.12kWh
+Current component_id id: 238
+Annual Power Offtake [kW]: 24939.4370
+Annual Power Injection [kW]: 53007.2487
+Annual electricity bill [EUR]: 2049.78
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 48.00
+Capex: 23505.00
+Net present value [EUR]: -16309.56
+Payback period [yr]: 56.88
+Return on investment: 0.44
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: SMA - SMA Home Storage - 16.4kWh
+Current component_id id: 239
+Annual Power Offtake [kW]: 24939.4370
+Annual Power Injection [kW]: 50202.9352
+Annual electricity bill [EUR]: 2051.69
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 48.00
+Capex: 25883.33
+Net present value [EUR]: -18721.26
+Payback period [yr]: 62.93
+Return on investment: 0.40
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 240
+Annual Power Offtake [kW]: 24943.1932
+Annual Power Injection [kW]: 71271.7789
+Annual electricity bill [EUR]: 1989.02
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 60.00
+Capex: 17116.67
+Net present value [EUR]: -8863.17
+Payback period [yr]: 36.11
+Return on investment: 0.69
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 241
+Annual Power Offtake [kW]: 24943.1932
+Annual Power Injection [kW]: 70240.7916
+Annual electricity bill [EUR]: 1997.09
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 60.00
+Capex: 17725.00
+Net present value [EUR]: -9612.06
+Payback period [yr]: 38.04
+Return on investment: 0.66
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 4.22kWh
+Current component_id id: 242
+Annual Power Offtake [kW]: 24943.1932
+Annual Power Injection [kW]: 65819.6399
+Annual electricity bill [EUR]: 2026.24
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 60.00
+Capex: 20008.33
+Net present value [EUR]: -12403.11
+Payback period [yr]: 45.81
+Return on investment: 0.55
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 2.56kWh
+Current component_id id: 243
+Annual Power Offtake [kW]: 24943.1932
+Annual Power Injection [kW]: 68268.6498
+Annual electricity bill [EUR]: 2009.81
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 60.00
+Capex: 19491.67
+Net present value [EUR]: -11600.32
+Payback period [yr]: 43.01
+Return on investment: 0.58
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 5.12kWh
+Current component_id id: 244
+Annual Power Offtake [kW]: 24943.1932
+Annual Power Injection [kW]: 64540.4712
+Annual electricity bill [EUR]: 2029.47
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 60.00
+Capex: 20791.67
+Net present value [EUR]: -13242.67
+Payback period [yr]: 47.96
+Return on investment: 0.52
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: SMA - SMA Home Storage - 3.28kWh
+Current component_id id: 245
+Annual Power Offtake [kW]: 24943.1932
+Annual Power Injection [kW]: 67311.8302
+Annual electricity bill [EUR]: 2015.95
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 60.00
+Capex: 18798.33
+Net present value [EUR]: -11013.85
+Payback period [yr]: 42.05
+Return on investment: 0.59
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: SMA - SMA Home Storage - 6.56kWh
+Current component_id id: 246
+Annual Power Offtake [kW]: 24943.1932
+Annual Power Injection [kW]: 62760.0674
+Annual electricity bill [EUR]: 2033.97
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 60.00
+Capex: 20930.00
+Net present value [EUR]: -13459.39
+Payback period [yr]: 48.79
+Return on investment: 0.51
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: SMA - SMA Home Storage - 9.84kWh
+Current component_id id: 247
+Annual Power Offtake [kW]: 24943.1932
+Annual Power Injection [kW]: 58506.0200
+Annual electricity bill [EUR]: 2045.07
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 60.00
+Capex: 23308.33
+Net present value [EUR]: -16030.96
+Payback period [yr]: 55.77
+Return on investment: 0.45
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: SMA - SMA Home Storage - 13.12kWh
+Current component_id id: 248
+Annual Power Offtake [kW]: 24943.1932
+Annual Power Injection [kW]: 54557.6797
+Annual electricity bill [EUR]: 2049.09
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 60.00
+Capex: 25685.00
+Net present value [EUR]: -18477.68
+Payback period [yr]: 62.06
+Return on investment: 0.40
+==========================================================================
+PV component used: Recom - Mono Cristalline Half Cut Module
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: SMA - SMA Home Storage - 16.4kWh
+Current component_id id: 249
+Annual Power Offtake [kW]: 24943.1932
+Annual Power Injection [kW]: 51754.6093
+Annual electricity bill [EUR]: 2051.01
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 60.00
+Capex: 28063.33
+Net present value [EUR]: -20889.38
+Payback period [yr]: 68.12
+Return on investment: 0.37
+==========================================================================
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 300
+Annual Power Offtake [kW]: 25772.4151
+Annual Power Injection [kW]: 33059.5320
+Annual electricity bill [EUR]: 2117.27
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 22.00
+Capex: 12389.87
+Net present value [EUR]: -6369.61
+Payback period [yr]: 35.84
+Return on investment: 0.70
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 301
+Annual Power Offtake [kW]: 25772.4151
+Annual Power Injection [kW]: 32073.1197
+Annual electricity bill [EUR]: 2123.62
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 22.00
+Capex: 12998.20
+Net present value [EUR]: -7088.51
+Payback period [yr]: 38.30
+Return on investment: 0.65
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 4.22kWh
+Current component_id id: 302
+Annual Power Offtake [kW]: 25772.4151
+Annual Power Injection [kW]: 28064.4053
+Annual electricity bill [EUR]: 2136.70
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 22.00
+Capex: 15281.53
+Net present value [EUR]: -9599.65
+Payback period [yr]: 46.83
+Return on investment: 0.53
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 2.56kWh
+Current component_id id: 303
+Annual Power Offtake [kW]: 25772.4151
+Annual Power Injection [kW]: 30273.0591
+Annual electricity bill [EUR]: 2130.93
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 22.00
+Capex: 14764.87
+Net present value [EUR]: -8982.61
+Payback period [yr]: 44.46
+Return on investment: 0.56
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 5.12kWh
+Current component_id id: 304
+Annual Power Offtake [kW]: 25772.4151
+Annual Power Injection [kW]: 26935.3108
+Annual electricity bill [EUR]: 2139.18
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 22.00
+Capex: 16064.87
+Net present value [EUR]: -10426.20
+Payback period [yr]: 49.61
+Return on investment: 0.50
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: SMA - SMA Home Storage - 3.28kWh
+Current component_id id: 305
+Annual Power Offtake [kW]: 25772.4151
+Annual Power Injection [kW]: 29408.7307
+Annual electricity bill [EUR]: 2133.17
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 22.00
+Capex: 14071.53
+Net present value [EUR]: -8328.27
+Payback period [yr]: 42.66
+Return on investment: 0.59
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: SMA - SMA Home Storage - 6.56kWh
+Current component_id id: 306
+Annual Power Offtake [kW]: 25772.4151
+Annual Power Injection [kW]: 25379.4897
+Annual electricity bill [EUR]: 2140.31
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 22.00
+Capex: 16203.20
+Net present value [EUR]: -10584.29
+Payback period [yr]: 50.21
+Return on investment: 0.50
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: SMA - SMA Home Storage - 9.84kWh
+Current component_id id: 307
+Annual Power Offtake [kW]: 25772.4151
+Annual Power Injection [kW]: 21707.5063
+Annual electricity bill [EUR]: 2142.99
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 22.00
+Capex: 18581.53
+Net present value [EUR]: -13009.30
+Payback period [yr]: 58.07
+Return on investment: 0.43
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: SMA - SMA Home Storage - 13.12kWh
+Current component_id id: 308
+Annual Power Offtake [kW]: 25772.4151
+Annual Power Injection [kW]: 18342.3006
+Annual electricity bill [EUR]: 2145.48
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 22.00
+Capex: 20958.20
+Net present value [EUR]: -15429.20
+Payback period [yr]: 66.01
+Return on investment: 0.38
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: SMA - SMA Home Storage - 16.4kWh
+Current component_id id: 309
+Annual Power Offtake [kW]: 25772.4151
+Annual Power Injection [kW]: 15971.5443
+Annual electricity bill [EUR]: 2147.18
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 22.00
+Capex: 23336.53
+Net present value [EUR]: -17837.26
+Payback period [yr]: 73.89
+Return on investment: 0.34
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 310
+Annual Power Offtake [kW]: 25468.2268
+Annual Power Injection [kW]: 42852.4848
+Annual electricity bill [EUR]: 2077.11
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 27.00
+Capex: 11334.53
+Net present value [EUR]: -4615.11
+Payback period [yr]: 29.37
+Return on investment: 0.85
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 311
+Annual Power Offtake [kW]: 25468.2268
+Annual Power Injection [kW]: 41857.5622
+Annual electricity bill [EUR]: 2083.47
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 27.00
+Capex: 11942.87
+Net present value [EUR]: -5334.15
+Payback period [yr]: 31.47
+Return on investment: 0.79
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 4.22kWh
+Current component_id id: 312
+Annual Power Offtake [kW]: 25468.2268
+Annual Power Injection [kW]: 37694.4338
+Annual electricity bill [EUR]: 2100.25
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 27.00
+Capex: 14226.20
+Net present value [EUR]: -7909.66
+Payback period [yr]: 39.22
+Return on investment: 0.64
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 2.56kWh
+Current component_id id: 313
+Annual Power Offtake [kW]: 25468.2268
+Annual Power Injection [kW]: 39980.8487
+Annual electricity bill [EUR]: 2094.43
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 27.00
+Capex: 13709.53
+Net present value [EUR]: -7291.72
+Payback period [yr]: 37.20
+Return on investment: 0.67
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 5.12kWh
+Current component_id id: 314
+Annual Power Offtake [kW]: 25468.2268
+Annual Power Injection [kW]: 36497.4811
+Annual electricity bill [EUR]: 2103.37
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 27.00
+Capex: 15009.53
+Net present value [EUR]: -8747.40
+Payback period [yr]: 41.74
+Return on investment: 0.60
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 3.28kWh
+Current component_id id: 315
+Annual Power Offtake [kW]: 25468.2268
+Annual Power Injection [kW]: 39087.1353
+Annual electricity bill [EUR]: 2096.70
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 27.00
+Capex: 13016.20
+Net present value [EUR]: -6637.87
+Payback period [yr]: 35.53
+Return on investment: 0.70
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 6.56kWh
+Current component_id id: 316
+Annual Power Offtake [kW]: 25468.2268
+Annual Power Injection [kW]: 34847.7370
+Annual electricity bill [EUR]: 2107.67
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 27.00
+Capex: 15147.87
+Net present value [EUR]: -8960.53
+Payback period [yr]: 42.63
+Return on investment: 0.59
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 9.84kWh
+Current component_id id: 317
+Annual Power Offtake [kW]: 25468.2268
+Annual Power Injection [kW]: 30969.3868
+Annual electricity bill [EUR]: 2110.48
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 27.00
+Capex: 17526.20
+Net present value [EUR]: -11387.73
+Payback period [yr]: 49.72
+Return on investment: 0.50
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 13.12kWh
+Current component_id id: 318
+Annual Power Offtake [kW]: 25468.2268
+Annual Power Injection [kW]: 27365.2162
+Annual electricity bill [EUR]: 2113.08
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 27.00
+Capex: 19902.87
+Net present value [EUR]: -13809.72
+Payback period [yr]: 56.88
+Return on investment: 0.44
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 16.4kWh
+Current component_id id: 319
+Annual Power Offtake [kW]: 25468.2268
+Annual Power Injection [kW]: 24849.0242
+Annual electricity bill [EUR]: 2114.85
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 27.00
+Capex: 22281.20
+Net present value [EUR]: -16218.96
+Payback period [yr]: 64.00
+Return on investment: 0.39
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 320
+Annual Power Offtake [kW]: 25208.3697
+Annual Power Injection [kW]: 53491.6765
+Annual electricity bill [EUR]: 2039.42
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 33.00
+Capex: 12634.80
+Net present value [EUR]: -5258.94
+Payback period [yr]: 29.83
+Return on investment: 0.84
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 321
+Annual Power Offtake [kW]: 25208.3697
+Annual Power Injection [kW]: 52479.9024
+Annual electricity bill [EUR]: 2046.65
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 33.00
+Capex: 13243.13
+Net present value [EUR]: -5993.19
+Payback period [yr]: 31.81
+Return on investment: 0.79
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 4.22kWh
+Current component_id id: 322
+Annual Power Offtake [kW]: 25208.3697
+Annual Power Injection [kW]: 48187.8573
+Annual electricity bill [EUR]: 2067.48
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 33.00
+Capex: 15526.47
+Net present value [EUR]: -8639.21
+Payback period [yr]: 39.26
+Return on investment: 0.64
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 2.56kWh
+Current component_id id: 323
+Annual Power Offtake [kW]: 25208.3697
+Annual Power Injection [kW]: 50549.5224
+Annual electricity bill [EUR]: 2059.35
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 33.00
+Capex: 15009.80
+Net present value [EUR]: -7981.05
+Payback period [yr]: 37.19
+Return on investment: 0.67
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 5.12kWh
+Current component_id id: 324
+Annual Power Offtake [kW]: 25208.3697
+Annual Power Injection [kW]: 46953.1110
+Annual electricity bill [EUR]: 2070.62
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 33.00
+Capex: 16309.80
+Net present value [EUR]: -9477.22
+Payback period [yr]: 41.57
+Return on investment: 0.60
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 3.28kWh
+Current component_id id: 325
+Annual Power Offtake [kW]: 25208.3697
+Annual Power Injection [kW]: 49626.1660
+Annual electricity bill [EUR]: 2063.89
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 33.00
+Capex: 14316.47
+Net present value [EUR]: -7366.69
+Payback period [yr]: 35.87
+Return on investment: 0.70
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 6.56kWh
+Current component_id id: 326
+Annual Power Offtake [kW]: 25208.3697
+Annual Power Injection [kW]: 45231.4688
+Annual electricity bill [EUR]: 2075.09
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 33.00
+Capex: 16448.13
+Net present value [EUR]: -9693.44
+Payback period [yr]: 42.40
+Return on investment: 0.59
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 9.84kWh
+Current component_id id: 327
+Annual Power Offtake [kW]: 25208.3697
+Annual Power Injection [kW]: 41162.8018
+Annual electricity bill [EUR]: 2081.95
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 33.00
+Capex: 18826.47
+Net present value [EUR]: -12191.29
+Payback period [yr]: 49.41
+Return on investment: 0.51
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 13.12kWh
+Current component_id id: 328
+Annual Power Offtake [kW]: 25208.3697
+Annual Power Injection [kW]: 37374.8754
+Annual electricity bill [EUR]: 2084.68
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 33.00
+Capex: 21203.13
+Net present value [EUR]: -14615.43
+Payback period [yr]: 56.05
+Return on investment: 0.45
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 16.4kWh
+Current component_id id: 329
+Annual Power Offtake [kW]: 25208.3697
+Annual Power Injection [kW]: 34717.8712
+Annual electricity bill [EUR]: 2086.51
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 33.00
+Capex: 23581.47
+Net present value [EUR]: -17025.61
+Payback period [yr]: 62.64
+Return on investment: 0.40
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 330
+Annual Power Offtake [kW]: 24846.4339
+Annual Power Injection [kW]: 73513.6475
+Annual electricity bill [EUR]: 1971.39
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 44.00
+Capex: 15063.07
+Net present value [EUR]: -6502.62
+Payback period [yr]: 30.64
+Return on investment: 0.82
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 331
+Annual Power Offtake [kW]: 24846.4339
+Annual Power Injection [kW]: 72477.0716
+Annual electricity bill [EUR]: 1979.23
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 44.00
+Capex: 15671.40
+Net present value [EUR]: -7247.49
+Payback period [yr]: 32.39
+Return on investment: 0.77
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 4.22kWh
+Current component_id id: 332
+Annual Power Offtake [kW]: 24846.4339
+Annual Power Injection [kW]: 68010.2845
+Annual electricity bill [EUR]: 2008.41
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 44.00
+Capex: 17954.73
+Net present value [EUR]: -10038.96
+Payback period [yr]: 39.50
+Return on investment: 0.63
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 2.56kWh
+Current component_id id: 333
+Annual Power Offtake [kW]: 24846.4339
+Annual Power Injection [kW]: 70490.1389
+Annual electricity bill [EUR]: 1991.96
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 44.00
+Capex: 17438.07
+Net present value [EUR]: -9235.80
+Payback period [yr]: 37.02
+Return on investment: 0.68
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 5.12kWh
+Current component_id id: 334
+Annual Power Offtake [kW]: 24846.4339
+Annual Power Injection [kW]: 66711.5532
+Annual electricity bill [EUR]: 2016.07
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 44.00
+Capex: 18738.07
+Net present value [EUR]: -10955.74
+Payback period [yr]: 41.93
+Return on investment: 0.60
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: SMA - SMA Home Storage - 3.28kWh
+Current component_id id: 335
+Annual Power Offtake [kW]: 24846.4339
+Annual Power Injection [kW]: 69523.2306
+Annual electricity bill [EUR]: 1998.14
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 44.00
+Capex: 16744.73
+Net present value [EUR]: -8650.13
+Payback period [yr]: 36.02
+Return on investment: 0.69
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: SMA - SMA Home Storage - 6.56kWh
+Current component_id id: 336
+Annual Power Offtake [kW]: 24846.4339
+Annual Power Injection [kW]: 64903.5018
+Annual electricity bill [EUR]: 2020.60
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 44.00
+Capex: 18876.40
+Net present value [EUR]: -11172.95
+Payback period [yr]: 42.67
+Return on investment: 0.59
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: SMA - SMA Home Storage - 9.84kWh
+Current component_id id: 337
+Annual Power Offtake [kW]: 24846.4339
+Annual Power Injection [kW]: 60587.6961
+Annual electricity bill [EUR]: 2031.73
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 44.00
+Capex: 21254.73
+Net present value [EUR]: -13745.10
+Payback period [yr]: 49.28
+Return on investment: 0.51
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: SMA - SMA Home Storage - 13.12kWh
+Current component_id id: 338
+Annual Power Offtake [kW]: 24846.4339
+Annual Power Injection [kW]: 56585.6541
+Annual electricity bill [EUR]: 2038.02
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 44.00
+Capex: 23631.40
+Net present value [EUR]: -16231.24
+Payback period [yr]: 55.61
+Return on investment: 0.45
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: SMA - SMA Home Storage - 16.4kWh
+Current component_id id: 339
+Annual Power Offtake [kW]: 24846.4339
+Annual Power Injection [kW]: 53753.0977
+Annual electricity bill [EUR]: 2039.94
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 44.00
+Capex: 26009.73
+Net present value [EUR]: -18643.07
+Payback period [yr]: 61.48
+Return on investment: 0.41
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 340
+Annual Power Offtake [kW]: 24823.3228
+Annual Power Injection [kW]: 77460.4151
+Annual electricity bill [EUR]: 1964.67
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 55.00
+Capex: 17274.67
+Net present value [EUR]: -8597.20
+Payback period [yr]: 34.67
+Return on investment: 0.72
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 341
+Annual Power Offtake [kW]: 24823.3228
+Annual Power Injection [kW]: 76423.2652
+Annual electricity bill [EUR]: 1972.45
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 55.00
+Capex: 17883.00
+Net present value [EUR]: -9341.08
+Payback period [yr]: 36.46
+Return on investment: 0.69
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 4.22kWh
+Current component_id id: 342
+Annual Power Offtake [kW]: 24823.3228
+Annual Power Injection [kW]: 71946.2631
+Annual electricity bill [EUR]: 2001.64
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 55.00
+Capex: 20166.33
+Net present value [EUR]: -12132.66
+Payback period [yr]: 43.71
+Return on investment: 0.57
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 2.56kWh
+Current component_id id: 343
+Annual Power Offtake [kW]: 24823.3228
+Annual Power Injection [kW]: 74432.7998
+Annual electricity bill [EUR]: 1985.18
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 55.00
+Capex: 19649.67
+Net present value [EUR]: -11329.39
+Payback period [yr]: 41.12
+Return on investment: 0.61
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 5.12kWh
+Current component_id id: 344
+Annual Power Offtake [kW]: 24823.3228
+Annual Power Injection [kW]: 70641.3020
+Annual electricity bill [EUR]: 2010.40
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 55.00
+Capex: 20949.67
+Net present value [EUR]: -13068.57
+Payback period [yr]: 46.29
+Return on investment: 0.54
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: SMA - SMA Home Storage - 3.28kWh
+Current component_id id: 345
+Annual Power Offtake [kW]: 24823.3228
+Annual Power Injection [kW]: 73463.0572
+Annual electricity bill [EUR]: 1991.37
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 55.00
+Capex: 18956.33
+Net present value [EUR]: -10743.92
+Payback period [yr]: 40.19
+Return on investment: 0.62
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: SMA - SMA Home Storage - 6.56kWh
+Current component_id id: 346
+Annual Power Offtake [kW]: 24823.3228
+Annual Power Injection [kW]: 68828.5395
+Annual electricity bill [EUR]: 2014.94
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 55.00
+Capex: 21088.00
+Net present value [EUR]: -13285.91
+Payback period [yr]: 47.07
+Return on investment: 0.53
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: SMA - SMA Home Storage - 9.84kWh
+Current component_id id: 347
+Annual Power Offtake [kW]: 24823.3228
+Annual Power Injection [kW]: 64495.9973
+Annual electricity bill [EUR]: 2026.08
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 55.00
+Capex: 23466.33
+Net present value [EUR]: -15858.18
+Payback period [yr]: 53.71
+Return on investment: 0.47
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: SMA - SMA Home Storage - 13.12kWh
+Current component_id id: 348
+Annual Power Offtake [kW]: 24823.3228
+Annual Power Injection [kW]: 60481.0961
+Annual electricity bill [EUR]: 2032.96
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 55.00
+Capex: 25843.00
+Net present value [EUR]: -18354.80
+Payback period [yr]: 60.10
+Return on investment: 0.42
+==========================================================================
+PV component used: Recom - Black Tiger
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: SMA - SMA Home Storage - 16.4kWh
+Current component_id id: 349
+Annual Power Offtake [kW]: 24823.3228
+Annual Power Injection [kW]: 57641.1534
+Annual electricity bill [EUR]: 2034.89
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 55.00
+Capex: 28221.33
+Net present value [EUR]: -20766.60
+Payback period [yr]: 65.92
+Return on investment: 0.38
+==========================================================================
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 400
+Annual Power Offtake [kW]: 25817.9420
+Annual Power Injection [kW]: 32362.5714
+Annual electricity bill [EUR]: 2122.82
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 16.00
+Capex: 12918.67
+Net present value [EUR]: -6995.13
+Payback period [yr]: 37.98
+Return on investment: 0.66
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 401
+Annual Power Offtake [kW]: 25817.9420
+Annual Power Injection [kW]: 31380.6892
+Annual electricity bill [EUR]: 2129.17
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 16.00
+Capex: 13527.00
+Net present value [EUR]: -7713.97
+Payback period [yr]: 40.52
+Return on investment: 0.62
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 4.22kWh
+Current component_id id: 402
+Annual Power Offtake [kW]: 25817.9420
+Annual Power Injection [kW]: 27397.7187
+Annual electricity bill [EUR]: 2141.74
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 16.00
+Capex: 15810.33
+Net present value [EUR]: -10216.23
+Payback period [yr]: 49.21
+Return on investment: 0.51
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 2.56kWh
+Current component_id id: 403
+Annual Power Offtake [kW]: 25817.9420
+Annual Power Injection [kW]: 29589.6956
+Annual electricity bill [EUR]: 2135.98
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 16.00
+Capex: 15293.67
+Net present value [EUR]: -9599.32
+Payback period [yr]: 46.77
+Return on investment: 0.53
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 5.12kWh
+Current component_id id: 404
+Annual Power Offtake [kW]: 25817.9420
+Annual Power Injection [kW]: 26276.1232
+Annual electricity bill [EUR]: 2143.76
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 16.00
+Capex: 16593.67
+Net present value [EUR]: -11034.68
+Payback period [yr]: 51.98
+Return on investment: 0.48
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: SMA - SMA Home Storage - 3.28kWh
+Current component_id id: 405
+Annual Power Offtake [kW]: 25817.9420
+Annual Power Injection [kW]: 28730.0989
+Annual electricity bill [EUR]: 2138.22
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 16.00
+Capex: 14600.33
+Net present value [EUR]: -8944.95
+Payback period [yr]: 44.95
+Return on investment: 0.56
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: SMA - SMA Home Storage - 6.56kWh
+Current component_id id: 406
+Annual Power Offtake [kW]: 25817.9420
+Annual Power Injection [kW]: 24735.8693
+Annual electricity bill [EUR]: 2144.88
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 16.00
+Capex: 16732.00
+Net present value [EUR]: -11192.65
+Payback period [yr]: 52.60
+Return on investment: 0.48
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: SMA - SMA Home Storage - 9.84kWh
+Current component_id id: 407
+Annual Power Offtake [kW]: 25817.9420
+Annual Power Injection [kW]: 21095.4903
+Annual electricity bill [EUR]: 2147.54
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 16.00
+Capex: 19110.33
+Net present value [EUR]: -13617.27
+Payback period [yr]: 60.58
+Return on investment: 0.41
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: SMA - SMA Home Storage - 13.12kWh
+Current component_id id: 408
+Annual Power Offtake [kW]: 25817.9420
+Annual Power Injection [kW]: 17754.9114
+Annual electricity bill [EUR]: 2150.01
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 16.00
+Capex: 21487.00
+Net present value [EUR]: -16036.99
+Payback period [yr]: 68.65
+Return on investment: 0.36
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: SMA - SMA Home Storage - 16.4kWh
+Current component_id id: 409
+Annual Power Offtake [kW]: 25817.9420
+Annual Power Injection [kW]: 15399.5208
+Annual electricity bill [EUR]: 2151.71
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 16.00
+Capex: 23865.33
+Net present value [EUR]: -18444.89
+Payback period [yr]: 76.67
+Return on investment: 0.33
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 410
+Annual Power Offtake [kW]: 25488.1429
+Annual Power Injection [kW]: 42665.5681
+Annual electricity bill [EUR]: 2079.59
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 20.00
+Capex: 12073.33
+Net present value [EUR]: -5397.03
+Payback period [yr]: 31.49
+Return on investment: 0.79
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 411
+Annual Power Offtake [kW]: 25488.1429
+Annual Power Injection [kW]: 41671.9140
+Annual electricity bill [EUR]: 2085.95
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 20.00
+Capex: 12681.67
+Net present value [EUR]: -6116.05
+Payback period [yr]: 33.63
+Return on investment: 0.74
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 4.22kWh
+Current component_id id: 412
+Annual Power Offtake [kW]: 25488.1429
+Annual Power Injection [kW]: 37519.7912
+Annual electricity bill [EUR]: 2102.41
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 20.00
+Capex: 14965.00
+Net present value [EUR]: -8686.06
+Payback period [yr]: 41.50
+Return on investment: 0.60
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 2.56kWh
+Current component_id id: 413
+Annual Power Offtake [kW]: 25488.1429
+Annual Power Injection [kW]: 39801.1556
+Annual electricity bill [EUR]: 2096.60
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 20.00
+Capex: 14448.33
+Net present value [EUR]: -8068.21
+Payback period [yr]: 39.43
+Return on investment: 0.63
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 5.12kWh
+Current component_id id: 414
+Annual Power Offtake [kW]: 25488.1429
+Annual Power Injection [kW]: 36326.0112
+Annual electricity bill [EUR]: 2105.53
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 20.00
+Capex: 15748.33
+Net present value [EUR]: -9523.77
+Payback period [yr]: 44.06
+Return on investment: 0.57
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 3.28kWh
+Current component_id id: 415
+Annual Power Offtake [kW]: 25488.1429
+Annual Power Injection [kW]: 38909.6344
+Annual electricity bill [EUR]: 2098.86
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 20.00
+Capex: 13755.00
+Net present value [EUR]: -7414.31
+Payback period [yr]: 37.77
+Return on investment: 0.66
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 6.56kWh
+Current component_id id: 416
+Annual Power Offtake [kW]: 25488.1429
+Annual Power Injection [kW]: 34684.9641
+Annual electricity bill [EUR]: 2109.57
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 20.00
+Capex: 15886.67
+Net present value [EUR]: -9732.39
+Payback period [yr]: 44.95
+Return on investment: 0.56
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 9.84kWh
+Current component_id id: 417
+Annual Power Offtake [kW]: 25488.1429
+Annual Power Injection [kW]: 30816.7144
+Annual electricity bill [EUR]: 2112.37
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 20.00
+Capex: 18265.00
+Net present value [EUR]: -12159.50
+Payback period [yr]: 52.09
+Return on investment: 0.48
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 13.12kWh
+Current component_id id: 418
+Annual Power Offtake [kW]: 25488.1429
+Annual Power Injection [kW]: 27225.7258
+Annual electricity bill [EUR]: 2114.96
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 20.00
+Capex: 20641.67
+Net present value [EUR]: -14581.29
+Payback period [yr]: 59.31
+Return on investment: 0.42
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 16.4kWh
+Current component_id id: 419
+Annual Power Offtake [kW]: 25488.1429
+Annual Power Injection [kW]: 24714.5523
+Annual electricity bill [EUR]: 2116.74
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 20.00
+Capex: 23020.00
+Net present value [EUR]: -16990.55
+Payback period [yr]: 66.48
+Return on investment: 0.38
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 420
+Annual Power Offtake [kW]: 25199.8441
+Annual Power Injection [kW]: 54286.2169
+Annual electricity bill [EUR]: 2037.91
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 25.00
+Capex: 13675.00
+Net present value [EUR]: -6272.98
+Payback period [yr]: 32.17
+Return on investment: 0.78
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 421
+Annual Power Offtake [kW]: 25199.8441
+Annual Power Injection [kW]: 53273.9744
+Annual electricity bill [EUR]: 2045.22
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 25.00
+Capex: 14283.33
+Net present value [EUR]: -7008.48
+Payback period [yr]: 34.19
+Return on investment: 0.73
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 4.22kWh
+Current component_id id: 422
+Annual Power Offtake [kW]: 25199.8441
+Annual Power Injection [kW]: 48978.3723
+Annual electricity bill [EUR]: 2066.15
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 25.00
+Capex: 16566.67
+Net present value [EUR]: -9656.38
+Payback period [yr]: 41.75
+Return on investment: 0.60
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 2.56kWh
+Current component_id id: 423
+Annual Power Offtake [kW]: 25199.8441
+Annual Power Injection [kW]: 51341.8136
+Annual electricity bill [EUR]: 2057.92
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 25.00
+Capex: 16050.00
+Net present value [EUR]: -8996.35
+Payback period [yr]: 39.62
+Return on investment: 0.63
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 5.12kWh
+Current component_id id: 424
+Annual Power Offtake [kW]: 25199.8441
+Annual Power Injection [kW]: 47743.1247
+Annual electricity bill [EUR]: 2069.29
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 25.00
+Capex: 17350.00
+Net present value [EUR]: -10494.41
+Payback period [yr]: 44.07
+Return on investment: 0.57
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 3.28kWh
+Current component_id id: 425
+Annual Power Offtake [kW]: 25199.8441
+Annual Power Injection [kW]: 50418.9806
+Annual electricity bill [EUR]: 2062.56
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 25.00
+Capex: 15356.67
+Net present value [EUR]: -8383.83
+Payback period [yr]: 38.35
+Return on investment: 0.65
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 6.56kWh
+Current component_id id: 426
+Annual Power Offtake [kW]: 25199.8441
+Annual Power Injection [kW]: 46019.6418
+Annual electricity bill [EUR]: 2073.77
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 25.00
+Capex: 17488.33
+Net present value [EUR]: -10710.63
+Payback period [yr]: 44.93
+Return on investment: 0.56
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 9.84kWh
+Current component_id id: 427
+Annual Power Offtake [kW]: 25199.8441
+Annual Power Injection [kW]: 41944.4966
+Annual electricity bill [EUR]: 2080.82
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 25.00
+Capex: 19866.67
+Net present value [EUR]: -13211.81
+Payback period [yr]: 51.98
+Return on investment: 0.48
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 13.12kWh
+Current component_id id: 428
+Annual Power Offtake [kW]: 25199.8441
+Annual Power Injection [kW]: 38149.9533
+Annual electricity bill [EUR]: 2083.55
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 25.00
+Capex: 22243.33
+Net present value [EUR]: -15635.99
+Payback period [yr]: 58.62
+Return on investment: 0.43
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 16.4kWh
+Current component_id id: 429
+Annual Power Offtake [kW]: 25199.8441
+Annual Power Injection [kW]: 35486.2241
+Annual electricity bill [EUR]: 2085.38
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 25.00
+Capex: 24621.67
+Net present value [EUR]: -18046.27
+Payback period [yr]: 65.20
+Return on investment: 0.38
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 430
+Annual Power Offtake [kW]: 24888.0896
+Annual Power Injection [kW]: 72053.5774
+Annual electricity bill [EUR]: 1979.52
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 33.00
+Capex: 16367.67
+Net present value [EUR]: -7948.78
+Payback period [yr]: 33.85
+Return on investment: 0.74
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 431
+Annual Power Offtake [kW]: 24888.0896
+Annual Power Injection [kW]: 71019.2622
+Annual electricity bill [EUR]: 1987.46
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 33.00
+Capex: 16976.00
+Net present value [EUR]: -8695.47
+Payback period [yr]: 35.70
+Return on investment: 0.70
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 4.22kWh
+Current component_id id: 432
+Annual Power Offtake [kW]: 24888.0896
+Annual Power Injection [kW]: 66572.0753
+Annual electricity bill [EUR]: 2016.63
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 33.00
+Capex: 19259.33
+Net present value [EUR]: -11486.75
+Payback period [yr]: 43.15
+Return on investment: 0.58
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 2.56kWh
+Current component_id id: 433
+Annual Power Offtake [kW]: 24888.0896
+Annual Power Injection [kW]: 69038.1191
+Annual electricity bill [EUR]: 2000.19
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 33.00
+Capex: 18742.67
+Net present value [EUR]: -10683.77
+Payback period [yr]: 40.50
+Return on investment: 0.62
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 5.12kWh
+Current component_id id: 434
+Annual Power Offtake [kW]: 24888.0896
+Annual Power Injection [kW]: 65282.9560
+Annual electricity bill [EUR]: 2022.29
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 33.00
+Capex: 20042.67
+Net present value [EUR]: -12368.65
+Payback period [yr]: 45.48
+Return on investment: 0.55
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: SMA - SMA Home Storage - 3.28kWh
+Current component_id id: 435
+Annual Power Offtake [kW]: 24888.0896
+Annual Power Injection [kW]: 68076.3076
+Annual electricity bill [EUR]: 2006.35
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 33.00
+Capex: 18049.33
+Net present value [EUR]: -10097.74
+Payback period [yr]: 39.53
+Return on investment: 0.63
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: SMA - SMA Home Storage - 6.56kWh
+Current component_id id: 436
+Annual Power Offtake [kW]: 24888.0896
+Annual Power Injection [kW]: 63486.1942
+Annual electricity bill [EUR]: 2026.81
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 33.00
+Capex: 20181.00
+Net present value [EUR]: -12585.64
+Payback period [yr]: 46.27
+Return on investment: 0.54
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: SMA - SMA Home Storage - 9.84kWh
+Current component_id id: 437
+Annual Power Offtake [kW]: 24888.0896
+Annual Power Injection [kW]: 59198.2383
+Annual electricity bill [EUR]: 2037.93
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 33.00
+Capex: 22559.33
+Net present value [EUR]: -15157.55
+Payback period [yr]: 53.07
+Return on investment: 0.47
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: SMA - SMA Home Storage - 13.12kWh
+Current component_id id: 438
+Annual Power Offtake [kW]: 24888.0896
+Annual Power Injection [kW]: 55218.1027
+Annual electricity bill [EUR]: 2043.23
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 33.00
+Capex: 24936.00
+Net present value [EUR]: -17626.61
+Payback period [yr]: 59.40
+Return on investment: 0.42
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: SMA - SMA Home Storage - 16.4kWh
+Current component_id id: 439
+Annual Power Offtake [kW]: 24888.0896
+Annual Power Injection [kW]: 52397.0063
+Annual electricity bill [EUR]: 2045.16
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 33.00
+Capex: 27314.33
+Net present value [EUR]: -20038.43
+Payback period [yr]: 65.37
+Return on investment: 0.38
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 440
+Annual Power Offtake [kW]: 24891.8226
+Annual Power Injection [kW]: 74056.3468
+Annual electricity bill [EUR]: 1978.76
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 41.00
+Capex: 18843.67
+Net present value [EUR]: -10411.66
+Payback period [yr]: 38.91
+Return on investment: 0.64
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 441
+Annual Power Offtake [kW]: 24891.8226
+Annual Power Injection [kW]: 73022.4474
+Annual electricity bill [EUR]: 1986.72
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 41.00
+Capex: 19452.00
+Net present value [EUR]: -11158.50
+Payback period [yr]: 40.84
+Return on investment: 0.61
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 4.22kWh
+Current component_id id: 442
+Annual Power Offtake [kW]: 24891.8226
+Annual Power Injection [kW]: 68576.9799
+Annual electricity bill [EUR]: 2015.89
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 41.00
+Capex: 21735.33
+Net present value [EUR]: -13949.76
+Payback period [yr]: 48.61
+Return on investment: 0.51
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 2.56kWh
+Current component_id id: 443
+Annual Power Offtake [kW]: 24891.8226
+Annual Power Injection [kW]: 71041.6127
+Annual electricity bill [EUR]: 1999.45
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 41.00
+Capex: 21218.67
+Net present value [EUR]: -13146.80
+Payback period [yr]: 45.77
+Return on investment: 0.55
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 5.12kWh
+Current component_id id: 444
+Annual Power Offtake [kW]: 24891.8226
+Annual Power Injection [kW]: 67288.3332
+Annual electricity bill [EUR]: 2021.38
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 41.00
+Capex: 22518.67
+Net present value [EUR]: -14828.77
+Payback period [yr]: 50.99
+Return on investment: 0.49
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: SMA - SMA Home Storage - 3.28kWh
+Current component_id id: 445
+Annual Power Offtake [kW]: 24891.8226
+Annual Power Injection [kW]: 70080.2346
+Annual electricity bill [EUR]: 2005.61
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 41.00
+Capex: 20525.33
+Net present value [EUR]: -12560.74
+Payback period [yr]: 44.87
+Return on investment: 0.56
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: SMA - SMA Home Storage - 6.56kWh
+Current component_id id: 446
+Annual Power Offtake [kW]: 24891.8226
+Annual Power Injection [kW]: 65492.7685
+Annual electricity bill [EUR]: 2025.90
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 41.00
+Capex: 22657.00
+Net present value [EUR]: -15045.75
+Payback period [yr]: 51.84
+Return on investment: 0.48
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: SMA - SMA Home Storage - 9.84kWh
+Current component_id id: 447
+Annual Power Offtake [kW]: 24891.8226
+Annual Power Injection [kW]: 61207.1990
+Annual electricity bill [EUR]: 2037.01
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 41.00
+Capex: 25035.33
+Net present value [EUR]: -17617.64
+Payback period [yr]: 58.77
+Return on investment: 0.43
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: SMA - SMA Home Storage - 13.12kWh
+Current component_id id: 448
+Annual Power Offtake [kW]: 24891.8226
+Annual Power Injection [kW]: 57229.2430
+Annual electricity bill [EUR]: 2042.23
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 41.00
+Capex: 27412.00
+Net present value [EUR]: -20085.11
+Payback period [yr]: 65.15
+Return on investment: 0.38
+==========================================================================
+PV component used: Vertex - BIFACIAL DUAL GLASS MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: SMA - SMA Home Storage - 16.4kWh
+Current component_id id: 449
+Annual Power Offtake [kW]: 24891.8226
+Annual Power Injection [kW]: 54409.1342
+Annual electricity bill [EUR]: 2044.15
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 41.00
+Capex: 29790.33
+Net present value [EUR]: -22496.93
+Payback period [yr]: 71.12
+Return on investment: 0.35
+==========================================================================
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 500
+Annual Power Offtake [kW]: 25791.0682
+Annual Power Injection [kW]: 32950.5776
+Annual electricity bill [EUR]: 2119.60
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 23.00
+Capex: 12297.07
+Net present value [EUR]: -6317.41
+Payback period [yr]: 35.81
+Return on investment: 0.70
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 501
+Annual Power Offtake [kW]: 25791.0682
+Annual Power Injection [kW]: 31966.4530
+Annual electricity bill [EUR]: 2125.95
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 23.00
+Capex: 12905.40
+Net present value [EUR]: -7036.29
+Payback period [yr]: 38.29
+Return on investment: 0.65
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 4.22kWh
+Current component_id id: 502
+Annual Power Offtake [kW]: 25791.0682
+Annual Power Injection [kW]: 27969.1884
+Annual electricity bill [EUR]: 2138.79
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 23.00
+Capex: 15188.73
+Net present value [EUR]: -9543.31
+Payback period [yr]: 46.85
+Return on investment: 0.53
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 2.56kWh
+Current component_id id: 503
+Annual Power Offtake [kW]: 25791.0682
+Annual Power Injection [kW]: 30170.2623
+Annual electricity bill [EUR]: 2133.03
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 23.00
+Capex: 14672.07
+Net present value [EUR]: -8926.34
+Payback period [yr]: 44.47
+Return on investment: 0.56
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 5.12kWh
+Current component_id id: 504
+Annual Power Offtake [kW]: 25791.0682
+Annual Power Injection [kW]: 26843.0605
+Annual electricity bill [EUR]: 2141.09
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 23.00
+Capex: 15972.07
+Net present value [EUR]: -10366.61
+Payback period [yr]: 49.62
+Return on investment: 0.50
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: SMA - SMA Home Storage - 3.28kWh
+Current component_id id: 505
+Annual Power Offtake [kW]: 25791.0682
+Annual Power Injection [kW]: 29308.2237
+Annual electricity bill [EUR]: 2135.27
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 23.00
+Capex: 13978.73
+Net present value [EUR]: -8271.98
+Payback period [yr]: 42.65
+Return on investment: 0.59
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: SMA - SMA Home Storage - 6.56kWh
+Current component_id id: 506
+Annual Power Offtake [kW]: 25791.0682
+Annual Power Injection [kW]: 25293.6566
+Annual electricity bill [EUR]: 2142.22
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 23.00
+Capex: 16110.40
+Net present value [EUR]: -10524.65
+Payback period [yr]: 50.22
+Return on investment: 0.50
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: SMA - SMA Home Storage - 9.84kWh
+Current component_id id: 507
+Annual Power Offtake [kW]: 25791.0682
+Annual Power Injection [kW]: 21632.6707
+Annual electricity bill [EUR]: 2144.89
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 23.00
+Capex: 18488.73
+Net present value [EUR]: -12949.51
+Payback period [yr]: 58.12
+Return on investment: 0.43
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: SMA - SMA Home Storage - 13.12kWh
+Current component_id id: 508
+Annual Power Offtake [kW]: 25791.0682
+Annual Power Injection [kW]: 18275.5183
+Annual electricity bill [EUR]: 2147.37
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 23.00
+Capex: 20865.40
+Net present value [EUR]: -15369.35
+Payback period [yr]: 66.11
+Return on investment: 0.38
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: Victron Energy - Multi RS Solar 48/6000 Hybride omvormer
+Battery component used: SMA - SMA Home Storage - 16.4kWh
+Current component_id id: 509
+Annual Power Offtake [kW]: 25791.0682
+Annual Power Injection [kW]: 15907.3937
+Annual electricity bill [EUR]: 2149.07
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 23.00
+Capex: 23243.73
+Net present value [EUR]: -17777.35
+Payback period [yr]: 74.04
+Return on investment: 0.34
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 510
+Annual Power Offtake [kW]: 25451.8210
+Annual Power Injection [kW]: 43734.9837
+Annual electricity bill [EUR]: 2074.97
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 29.00
+Capex: 11332.53
+Net present value [EUR]: -4575.73
+Payback period [yr]: 29.21
+Return on investment: 0.86
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 511
+Annual Power Offtake [kW]: 25451.8210
+Annual Power Injection [kW]: 42739.4537
+Annual electricity bill [EUR]: 2081.23
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 29.00
+Capex: 11940.87
+Net present value [EUR]: -5293.16
+Payback period [yr]: 31.28
+Return on investment: 0.80
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 4.22kWh
+Current component_id id: 512
+Annual Power Offtake [kW]: 25451.8210
+Annual Power Injection [kW]: 38569.9210
+Annual electricity bill [EUR]: 2098.20
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 29.00
+Capex: 14224.20
+Net present value [EUR]: -7871.99
+Payback period [yr]: 38.99
+Return on investment: 0.64
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 2.56kWh
+Current component_id id: 513
+Annual Power Offtake [kW]: 25451.8210
+Annual Power Injection [kW]: 40859.3425
+Annual electricity bill [EUR]: 2092.38
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 29.00
+Capex: 13707.53
+Net present value [EUR]: -7254.00
+Payback period [yr]: 36.99
+Return on investment: 0.68
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 5.12kWh
+Current component_id id: 514
+Annual Power Offtake [kW]: 25451.8210
+Annual Power Injection [kW]: 37369.9729
+Annual electricity bill [EUR]: 2101.33
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 29.00
+Capex: 15007.53
+Net present value [EUR]: -8709.76
+Payback period [yr]: 41.50
+Return on investment: 0.60
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 3.28kWh
+Current component_id id: 515
+Annual Power Offtake [kW]: 25451.8210
+Annual Power Injection [kW]: 39964.5912
+Annual electricity bill [EUR]: 2094.65
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 29.00
+Capex: 13014.20
+Net present value [EUR]: -6600.18
+Payback period [yr]: 35.33
+Return on investment: 0.71
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 6.56kWh
+Current component_id id: 516
+Annual Power Offtake [kW]: 25451.8210
+Annual Power Injection [kW]: 35713.2598
+Annual electricity bill [EUR]: 2105.76
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 29.00
+Capex: 15145.87
+Net present value [EUR]: -8925.21
+Payback period [yr]: 42.40
+Return on investment: 0.59
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 9.84kWh
+Current component_id id: 517
+Annual Power Offtake [kW]: 25451.8210
+Annual Power Injection [kW]: 31824.7315
+Annual electricity bill [EUR]: 2108.69
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 29.00
+Capex: 17524.20
+Net present value [EUR]: -11354.70
+Payback period [yr]: 49.46
+Return on investment: 0.51
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 13.12kWh
+Current component_id id: 518
+Annual Power Offtake [kW]: 25451.8210
+Annual Power Injection [kW]: 28205.8839
+Annual electricity bill [EUR]: 2111.31
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 29.00
+Capex: 19900.87
+Net present value [EUR]: -13776.90
+Payback period [yr]: 56.59
+Return on investment: 0.44
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 16.4kWh
+Current component_id id: 519
+Annual Power Offtake [kW]: 25451.8210
+Annual Power Injection [kW]: 25679.8031
+Annual electricity bill [EUR]: 2113.08
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 29.00
+Capex: 22279.20
+Net present value [EUR]: -16186.10
+Payback period [yr]: 63.67
+Return on investment: 0.39
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 520
+Annual Power Offtake [kW]: 25208.6657
+Annual Power Injection [kW]: 53967.1235
+Annual electricity bill [EUR]: 2039.31
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 35.00
+Capex: 12568.00
+Net present value [EUR]: -5190.30
+Payback period [yr]: 29.66
+Return on investment: 0.84
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 521
+Annual Power Offtake [kW]: 25208.6657
+Annual Power Injection [kW]: 52955.5956
+Annual electricity bill [EUR]: 2046.49
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 35.00
+Capex: 13176.33
+Net present value [EUR]: -5923.66
+Payback period [yr]: 31.64
+Return on investment: 0.79
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 4.22kWh
+Current component_id id: 522
+Annual Power Offtake [kW]: 25208.6657
+Annual Power Injection [kW]: 48665.0949
+Annual electricity bill [EUR]: 2067.27
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 35.00
+Capex: 15459.67
+Net present value [EUR]: -8568.88
+Payback period [yr]: 39.07
+Return on investment: 0.64
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 2.56kWh
+Current component_id id: 523
+Annual Power Offtake [kW]: 25208.6657
+Annual Power Injection [kW]: 51025.9331
+Annual electricity bill [EUR]: 2059.19
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 35.00
+Capex: 14943.00
+Net present value [EUR]: -7911.50
+Payback period [yr]: 37.01
+Return on investment: 0.68
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 5.12kWh
+Current component_id id: 524
+Annual Power Offtake [kW]: 25208.6657
+Annual Power Injection [kW]: 47430.5126
+Annual electricity bill [EUR]: 2070.41
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 35.00
+Capex: 16243.00
+Net present value [EUR]: -9406.89
+Payback period [yr]: 41.37
+Return on investment: 0.60
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 3.28kWh
+Current component_id id: 525
+Annual Power Offtake [kW]: 25208.6657
+Annual Power Injection [kW]: 50102.9461
+Annual electricity bill [EUR]: 2063.68
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 35.00
+Capex: 14249.67
+Net present value [EUR]: -7296.37
+Payback period [yr]: 35.69
+Return on investment: 0.70
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 6.56kWh
+Current component_id id: 526
+Annual Power Offtake [kW]: 25208.6657
+Annual Power Injection [kW]: 45708.9626
+Annual electricity bill [EUR]: 2074.89
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 35.00
+Capex: 16381.33
+Net present value [EUR]: -9623.11
+Payback period [yr]: 42.21
+Return on investment: 0.59
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 9.84kWh
+Current component_id id: 527
+Annual Power Offtake [kW]: 25208.6657
+Annual Power Injection [kW]: 41640.0726
+Annual electricity bill [EUR]: 2081.78
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 35.00
+Capex: 18759.67
+Net present value [EUR]: -12121.51
+Payback period [yr]: 49.21
+Return on investment: 0.51
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 13.12kWh
+Current component_id id: 528
+Annual Power Offtake [kW]: 25208.6657
+Annual Power Injection [kW]: 37850.8740
+Annual electricity bill [EUR]: 2084.51
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 35.00
+Capex: 21136.33
+Net present value [EUR]: -14545.65
+Payback period [yr]: 55.84
+Return on investment: 0.45
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 5000W
+Battery component used: SMA - SMA Home Storage - 16.4kWh
+Current component_id id: 529
+Annual Power Offtake [kW]: 25208.6657
+Annual Power Injection [kW]: 35192.4493
+Annual electricity bill [EUR]: 2086.34
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 35.00
+Capex: 23514.67
+Net present value [EUR]: -16955.85
+Payback period [yr]: 62.43
+Return on investment: 0.40
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 530
+Annual Power Offtake [kW]: 24891.1082
+Annual Power Injection [kW]: 71900.4580
+Annual electricity bill [EUR]: 1980.12
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 47.00
+Capex: 15022.27
+Net present value [EUR]: -6613.84
+Payback period [yr]: 31.11
+Return on investment: 0.80
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 531
+Annual Power Offtake [kW]: 24891.1082
+Annual Power Injection [kW]: 70866.5109
+Annual electricity bill [EUR]: 1988.07
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 47.00
+Capex: 15630.60
+Net present value [EUR]: -7360.65
+Payback period [yr]: 32.91
+Return on investment: 0.76
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 4.22kWh
+Current component_id id: 532
+Annual Power Offtake [kW]: 24891.1082
+Annual Power Injection [kW]: 66420.7499
+Annual electricity bill [EUR]: 2017.24
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 47.00
+Capex: 17913.93
+Net present value [EUR]: -10151.91
+Payback period [yr]: 40.19
+Return on investment: 0.62
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 2.56kWh
+Current component_id id: 533
+Annual Power Offtake [kW]: 24891.1082
+Annual Power Injection [kW]: 68885.5778
+Annual electricity bill [EUR]: 2000.80
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 47.00
+Capex: 17397.27
+Net present value [EUR]: -9348.95
+Payback period [yr]: 37.64
+Return on investment: 0.66
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 5.12kWh
+Current component_id id: 534
+Annual Power Offtake [kW]: 24891.1082
+Annual Power Injection [kW]: 65131.9478
+Annual electricity bill [EUR]: 2022.77
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 47.00
+Capex: 18697.27
+Net present value [EUR]: -11031.48
+Payback period [yr]: 42.47
+Return on investment: 0.59
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: SMA - SMA Home Storage - 3.28kWh
+Current component_id id: 535
+Annual Power Offtake [kW]: 24891.1082
+Annual Power Injection [kW]: 67924.1339
+Annual electricity bill [EUR]: 2006.96
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 47.00
+Capex: 16703.93
+Net present value [EUR]: -8762.89
+Payback period [yr]: 36.63
+Return on investment: 0.68
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: SMA - SMA Home Storage - 6.56kWh
+Current component_id id: 536
+Annual Power Offtake [kW]: 24891.1082
+Annual Power Injection [kW]: 63336.1622
+Annual electricity bill [EUR]: 2027.28
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 47.00
+Capex: 18835.60
+Net present value [EUR]: -11248.46
+Payback period [yr]: 43.23
+Return on investment: 0.58
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: SMA - SMA Home Storage - 9.84kWh
+Current component_id id: 537
+Annual Power Offtake [kW]: 24891.1082
+Annual Power Injection [kW]: 59050.1551
+Annual electricity bill [EUR]: 2038.40
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 47.00
+Capex: 21213.93
+Net present value [EUR]: -13820.35
+Payback period [yr]: 49.96
+Return on investment: 0.50
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: SMA - SMA Home Storage - 13.12kWh
+Current component_id id: 538
+Annual Power Offtake [kW]: 24891.1082
+Annual Power Injection [kW]: 55071.8221
+Annual electricity bill [EUR]: 2043.63
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 47.00
+Capex: 23590.60
+Net present value [EUR]: -16288.13
+Payback period [yr]: 56.25
+Return on investment: 0.44
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 8000W
+Battery component used: SMA - SMA Home Storage - 16.4kWh
+Current component_id id: 539
+Annual Power Offtake [kW]: 24891.1082
+Annual Power Injection [kW]: 52251.4487
+Annual electricity bill [EUR]: 2045.55
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 47.00
+Capex: 25968.93
+Net present value [EUR]: -18699.94
+Payback period [yr]: 62.21
+Return on investment: 0.40
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 0.640kWh
+Current component_id id: 540
+Annual Power Offtake [kW]: 24894.8418
+Annual Power Injection [kW]: 73866.0513
+Annual electricity bill [EUR]: 1979.39
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 58.00
+Capex: 17115.07
+Net present value [EUR]: -8693.97
+Payback period [yr]: 35.39
+Return on investment: 0.71
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 1.28kWh
+Current component_id id: 541
+Annual Power Offtake [kW]: 24894.8418
+Annual Power Injection [kW]: 72832.2823
+Annual electricity bill [EUR]: 1987.35
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 58.00
+Capex: 17723.40
+Net present value [EUR]: -9440.94
+Payback period [yr]: 37.26
+Return on investment: 0.67
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 4.22kWh
+Current component_id id: 542
+Annual Power Offtake [kW]: 24894.8418
+Annual Power Injection [kW]: 68388.2208
+Annual electricity bill [EUR]: 2016.52
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 58.00
+Capex: 20006.73
+Net present value [EUR]: -12232.18
+Payback period [yr]: 44.81
+Return on investment: 0.56
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 2.56kWh
+Current component_id id: 543
+Annual Power Offtake [kW]: 24894.8418
+Annual Power Injection [kW]: 70851.9173
+Annual electricity bill [EUR]: 2000.08
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 58.00
+Capex: 19490.07
+Net present value [EUR]: -11429.23
+Payback period [yr]: 42.10
+Return on investment: 0.59
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: Victron Energy - Lithium-Iron-Phosphate Batteries Smart - 5.12kWh
+Current component_id id: 544
+Annual Power Offtake [kW]: 24894.8418
+Annual Power Injection [kW]: 67100.1591
+Annual electricity bill [EUR]: 2021.88
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 58.00
+Capex: 20790.07
+Net present value [EUR]: -13108.86
+Payback period [yr]: 47.13
+Return on investment: 0.53
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: SMA - SMA Home Storage - 3.28kWh
+Current component_id id: 545
+Annual Power Offtake [kW]: 24894.8418
+Annual Power Injection [kW]: 69890.9415
+Annual electricity bill [EUR]: 2006.24
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 58.00
+Capex: 18796.73
+Net present value [EUR]: -10843.14
+Payback period [yr]: 41.15
+Return on investment: 0.61
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: SMA - SMA Home Storage - 6.56kWh
+Current component_id id: 546
+Annual Power Offtake [kW]: 24894.8418
+Annual Power Injection [kW]: 65306.1159
+Annual electricity bill [EUR]: 2026.40
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 58.00
+Capex: 20928.40
+Net present value [EUR]: -13325.82
+Payback period [yr]: 47.93
+Return on investment: 0.52
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: SMA - SMA Home Storage - 9.84kWh
+Current component_id id: 547
+Annual Power Offtake [kW]: 24894.8418
+Annual Power Injection [kW]: 61021.8179
+Annual electricity bill [EUR]: 2037.51
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 58.00
+Capex: 23306.73
+Net present value [EUR]: -15897.69
+Payback period [yr]: 54.78
+Return on investment: 0.46
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: SMA - SMA Home Storage - 13.12kWh
+Current component_id id: 548
+Annual Power Offtake [kW]: 24894.8418
+Annual Power Injection [kW]: 57045.8363
+Annual electricity bill [EUR]: 2042.65
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 58.00
+Capex: 25683.40
+Net present value [EUR]: -18363.89
+Payback period [yr]: 61.10
+Return on investment: 0.41
+==========================================================================
+PV component used: Vertex - BACKSHEET MONOCRYSTALLINE MODULE
+Hyrbid inverter component used: SMA - Sunny Tripower Smart Energy (Hybrid) - 10000W
+Battery component used: SMA - SMA Home Storage - 16.4kWh
+Current component_id id: 549
+Annual Power Offtake [kW]: 24894.8418
+Annual Power Injection [kW]: 54226.6060
+Annual electricity bill [EUR]: 2044.57
+Annual electricity bill base [EUR]: 2463.00
+Discount rate used: 0.0300
+Number of panels used: 58.00
+Capex: 28061.73
+Net present value [EUR]: -20775.70
+Payback period [yr]: 67.07
+Return on investment: 0.37
+==========================================================================

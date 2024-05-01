@@ -170,8 +170,9 @@ def run_power_modeling(Flat_roof_case,Battery_case,Southern_orientation_case,dyn
 
     # split 3: 2^3
     if not Battery_case:
-        P_offtake_array = P_load_array - P_inverter_array
-        P_injection_array = - P_offtake_array
+        P_difference = P_load_array - P_inverter_array
+        P_offtake_array = np.maximum(P_difference,0)
+        P_injection_array = -np.minimum(P_difference,0)
         P_direct_consumption_array = P_inverter_array - P_injection_array
         E_battery_array = np.zeros(P_inverter_array.shape[0])
 

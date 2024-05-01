@@ -34,7 +34,6 @@ def multiply_and_sum_lists(list1, list2):
     # Multiply the elements pairwise and sum the results
     return sum(x * y for x, y in zip(list1, list2))
 
-
 #nighttarrif is every weekday from 22u to 7 u and the whole weekend active
 #the VAT is already included in the tarrifs according to the documents of Engie
 def get_electricity_bill(P_offtake, P_injection, dynamic_tarrif, EV_case):
@@ -48,19 +47,19 @@ def get_electricity_bill(P_offtake, P_injection, dynamic_tarrif, EV_case):
 
     E_offtake = E_offtake.reshape(365,24,4)
     all_indices = np.arange(365)
-    mask = np.logical_or((all_indices % 6 == 0),(all_indices % 6 == 5))
+    mask = np.logical_or((all_indices % 7 == 6),(all_indices % 7 == 5))
     E_offtake_weekends = E_offtake[mask,:,:]
     E_offtake_weekdays = E_offtake[1-mask,:,:]
 
-    consumption_day = np.sum(E_offtake_weekdays[:,6:21,:].flatten(),axis=0)
-    consumption_night = np.sum(E_offtake_weekends.flatten(),axis=0) + np.sum(E_offtake_weekdays[:,:6,:].flatten(),axis=0) + np.sum(E_offtake_weekdays[:,21:,:].flatten(),axis=0)
+    consumption_day = np.sum(E_offtake_weekdays[:,7:22,:].flatten(),axis=0)
+    consumption_night = np.sum(E_offtake_weekends.flatten(),axis=0) + np.sum(E_offtake_weekdays[:,:7,:].flatten(),axis=0) + np.sum(E_offtake_weekdays[:,22:,:].flatten(),axis=0)
 
     E_injection = E_injection.reshape(365,24,4)
     E_injection_weekends = E_injection[mask,:,:]
     E_injection_weekdays = E_injection[1-mask,:,:]
 
-    injection_day = np.sum(E_injection_weekdays[:,6:21,:].flatten(),axis=0)
-    injection_night = np.sum(E_injection_weekends.flatten(),axis=0) + np.sum(E_injection_weekdays[:,:6,:].flatten(),axis=0) + np.sum(E_injection_weekdays[:,21:,:].flatten(),axis=0)
+    injection_day = np.sum(E_injection_weekdays[:,7:22,:].flatten(),axis=0)
+    injection_night = np.sum(E_injection_weekends.flatten(),axis=0) + np.sum(E_injection_weekdays[:,:7,:].flatten(),axis=0) + np.sum(E_injection_weekdays[:,22:,:].flatten(),axis=0)
 
     # Slicing the net_load_profile array to get monthly data
     kW_jan = total_consumption_profile[0:2976]

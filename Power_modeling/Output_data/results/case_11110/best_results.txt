@@ -1,3 +1,10 @@
+==========================================================================
+Current case id: 11110
+Flat roof?: True
+Battery case?: True
+Southern orientation case?: True
+Dynamic tarrif case?: True
+EV case?: 0
 Best performing component case regarding NPV: 520
 Net present value [EUR]: 4253.91
 Best performing component case regarding PBP: 520

@@ -1,6 +1,13 @@
+==========================================================================
+Current case id: 11113
+Flat roof?: True
+Battery case?: True
+Southern orientation case?: True
+Dynamic tarrif case?: True
+EV case?: 3
 Best performing component case regarding NPV: 520
-Net present value [EUR]: 6095.39
+Net present value [EUR]: 4165.60
 Best performing component case regarding PBP: 520
-Payback period [yr]: 11.63
+Payback period [yr]: 13.00
 Best performing component case regarding ROI: 520
-Return on investment: 2.15
+Return on investment: 1.92

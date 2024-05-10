@@ -108,7 +108,8 @@ def run_power_modeling(Flat_roof_case,Battery_case,Southern_orientation_case,dyn
             GTI_N = np.load(project_dir+\
                         f'/effective_irradiance/Output_data/total_irradiance_per_angle_N/total_irradiance_for_tilt_angle_45.npy')
             GTI_N = GTI_N.reshape(365,24,60)
-            GTI = (GTI_S + GTI_N)/2
+            # GTI = (GTI_S + GTI_N)/2
+            GTI = GTI_S
 
         else:
             GTI_EW = np.load(project_dir+\

@@ -11,3 +11,16 @@ Best performing component case regarding PBP: 330
 Payback period [yr]: 13.71
 Best performing component case regarding ROI: 330
 Return on investment: 1.82
+==========================================================================
+Current case id: 01110
+Flat roof?: False
+Battery case?: True
+Southern orientation case?: True
+Dynamic tarrif case?: True
+EV case?: 0
+Best performing component case regarding NPV: 340
+Net present value [EUR]: 10043.24
+Best performing component case regarding PBP: 330
+Payback period [yr]: 9.61
+Best performing component case regarding ROI: 330
+Return on investment: 2.60

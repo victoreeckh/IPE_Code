@@ -415,6 +415,8 @@ for Flat_roof_case in [True,False]:
 
                                     # capex = PV_data['PV_price_option'] + Inverter_data['inverter_price_option'] + Battery_data['battery_price_option']
                                     n = get_number_of_solar_panels(Southern_orientation_case, Flat_roof_case, w_roof, l_roof, w_panel_options[PV_option], l_panel_options[PV_option],PV_data['P_PV_peak_option'],Inverter_data['P_inverter_max_option'])
+                                    if Southern_orientation_case:
+                                        n = int(n/2)
                                     installation_cost = 25*n
                                     if Flat_roof_case:
                                         installation_cost += 900
@@ -501,6 +503,8 @@ for Flat_roof_case in [True,False]:
                                     # capex = PV_data['PV_price_option'] + Inverter_data['inverter_price_option'] + Battery_data['battery_price_option']
 
                                     n = get_number_of_solar_panels(Southern_orientation_case, Flat_roof_case, w_roof, l_roof, w_panel_options[PV_option], l_panel_options[PV_option],PV_data['P_PV_peak_option'],Inverter_data['P_inverter_max_option'])
+                                    if Southern_orientation_case:
+                                        n = int(n/2)
                                     installation_cost = 25*n
                                     if Flat_roof_case:
                                         installation_cost += 900

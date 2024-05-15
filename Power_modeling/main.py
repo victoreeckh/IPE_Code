@@ -323,10 +323,15 @@ nb_cases = 64
 nb_component_cases = 300
 case = 0
 for Flat_roof_case in [True,False]:
+# for Flat_roof_case in [True]:
     for Battery_case in [True,False]:
+    # for Battery_case in [True]:
         for Southern_orientation_case in [True,False]:
+        # for Southern_orientation_case in [True]:
             for dynamic_tarrif_case in [True,False]:
+            # for dynamic_tarrif_case in [True]:
                 for EV_case in [0,1,2,3]:
+                # for EV_case in [1]:
                     best_results['best_NPV'] = -float('inf')
                     best_results['best_NPV_comp_id'] = None
                     best_results['best_PBP'] = float('inf')

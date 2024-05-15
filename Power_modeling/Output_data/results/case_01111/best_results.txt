@@ -6,8 +6,8 @@ Southern orientation case?: True
 Dynamic tarrif case?: True
 EV case?: 1
 Best performing component case regarding NPV: 340
-Net present value [EUR]: 12416.81
+Net present value [EUR]: 13630.37
 Best performing component case regarding PBP: 330
-Payback period [yr]: 8.65
+Payback period [yr]: 8.23
 Best performing component case regarding ROI: 330
-Return on investment: 2.89
+Return on investment: 3.04

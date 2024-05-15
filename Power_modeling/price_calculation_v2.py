@@ -52,14 +52,18 @@ def get_electricity_bill(P_offtake, P_injection, dynamic_tarrif, EV_case):
     E_offtake_weekdays = E_offtake[1-mask,:,:]
 
     consumption_day = np.sum(E_offtake_weekdays[:,7:22,:].flatten(),axis=0)
-    consumption_night = np.sum(E_offtake_weekends.flatten(),axis=0) + np.sum(E_offtake_weekdays[:,:7,:].flatten(),axis=0) + np.sum(E_offtake_weekdays[:,22:,:].flatten(),axis=0)
+    consumption_night = np.sum(E_offtake_weekends.flatten(),axis=0) +\
+                np.sum(E_offtake_weekdays[:,:7,:].flatten(),axis=0) +\
+                np.sum(E_offtake_weekdays[:,22:,:].flatten(),axis=0)
 
     E_injection = E_injection.reshape(365,24,4)
     E_injection_weekends = E_injection[mask,:,:]
     E_injection_weekdays = E_injection[1-mask,:,:]
 
     injection_day = np.sum(E_injection_weekdays[:,7:22,:].flatten(),axis=0)
-    injection_night = np.sum(E_injection_weekends.flatten(),axis=0) + np.sum(E_injection_weekdays[:,:7,:].flatten(),axis=0) + np.sum(E_injection_weekdays[:,22:,:].flatten(),axis=0)
+    injection_night = np.sum(E_injection_weekends.flatten(),axis=0) +\
+                np.sum(E_injection_weekdays[:,:7,:].flatten(),axis=0) +\
+                np.sum(E_injection_weekdays[:,22:,:].flatten(),axis=0)
 
     # Slicing the net_load_profile array to get monthly data
     kW_jan = total_consumption_profile[0:2976]
@@ -90,7 +94,9 @@ def get_electricity_bill(P_offtake, P_injection, dynamic_tarrif, EV_case):
     peak_dec = np.max(kW_dec)
 
     # Calculating the average of the monthly peaks
-    average_peak = (peak_jan + peak_feb + peak_mar + peak_apr + peak_may + peak_jun + peak_jul + peak_aug + peak_sep + peak_oct + peak_nov + peak_dec) / 12
+    average_peak = (peak_jan + peak_feb + peak_mar + peak_apr + peak_may +\
+                    peak_jun + peak_jul + peak_aug + peak_sep + peak_oct +\
+                    peak_nov + peak_dec)/ 12
 
 
     if dynamic_tarrif == False:
@@ -115,7 +121,14 @@ def get_electricity_bill(P_offtake, P_injection, dynamic_tarrif, EV_case):
             federal_excise = 0.0503288 #eur/kwh    consumtion is around 3.1MWh
 
 
-            total_price = fixed_fee + consumption_price_day*consumption_day + consumption_price_night*consumption_night - injection_price_day*injection_day - injection_price_night*injection_night + cost_green_energy_and_WKK*total_consumption + capacity_tariff_cost + total_kwh_network_tarrif*total_consumption + data_processing_fee + energy_allowance*total_consumption + federal_excise*total_consumption
+            total_price = fixed_fee + consumption_price_day*consumption_day +\
+                        consumption_price_night*consumption_night -\
+                        injection_price_day*injection_day -\
+                        injection_price_night*injection_night +\
+                        cost_green_energy_and_WKK*total_consumption +\
+                        capacity_tariff_cost + total_kwh_network_tarrif*total_consumption +\
+                        data_processing_fee + energy_allowance*total_consumption +\
+                        federal_excise*total_consumption
             return total_price
 
         else:
@@ -138,7 +151,14 @@ def get_electricity_bill(P_offtake, P_injection, dynamic_tarrif, EV_case):
             energy_allowance = 0.0020417  # eur/kwh
             federal_excise = 0.0503288  # eur/kwh    consumtion is around 3.1MWh
 
-            total_price = fixed_fee + consumption_price_day * consumption_day + consumption_price_night * consumption_night - injection_price_day * injection_day - injection_price_night * injection_night + cost_green_energy_and_WKK * total_consumption + capacity_tariff_cost + total_kwh_network_tarrif * total_consumption + data_processing_fee + energy_allowance * total_consumption + federal_excise * total_consumption
+            total_price = fixed_fee + consumption_price_day * consumption_day +\
+                        consumption_price_night * consumption_night -\
+                        injection_price_day * injection_day -\
+                        injection_price_night * injection_night +\
+                        cost_green_energy_and_WKK * total_consumption +\
+                        capacity_tariff_cost + total_kwh_network_tarrif * total_consumption +\
+                        data_processing_fee + energy_allowance * total_consumption +\
+                        federal_excise * total_consumption
             return total_price
 
 
@@ -165,7 +185,12 @@ def get_electricity_bill(P_offtake, P_injection, dynamic_tarrif, EV_case):
         energy_allowance = 0.0020417  # eur/kwh
         federal_excise = 0.0503288  # eur/kwh    consumtion is around 3.1MWh
 
-        total_price = fixed_fee + multiply_and_sum_lists(consumption_prices,total_consumption_profile) - multiply_and_sum_lists(injection_prices,total_injection_profile) + cost_green_energy_and_WKK * total_consumption + capacity_tariff_cost + total_kwh_network_tarrif * total_consumption + data_processing_fee + energy_allowance * total_consumption + federal_excise * total_consumption
+        total_price = fixed_fee +\
+                multiply_and_sum_lists(consumption_prices,total_consumption_profile) -\
+                multiply_and_sum_lists(injection_prices,total_injection_profile) +\
+                cost_green_energy_and_WKK * total_consumption + capacity_tariff_cost +\
+                total_kwh_network_tarrif * total_consumption + data_processing_fee +\
+                energy_allowance * total_consumption + federal_excise * total_consumption
         return total_price
 
 

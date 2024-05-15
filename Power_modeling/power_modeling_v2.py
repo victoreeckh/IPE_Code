@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import random
+from datetime import datetime, timedelta
 
 import os
 current_dir = os.getcwd()
@@ -89,6 +90,7 @@ def run_power_modeling(Flat_roof_case,Battery_case,Southern_orientation_case,dyn
             GTI_S = np.load(project_dir+\
                         f'/effective_irradiance/Output_data/total_irradiance_per_angle/total_irradiance_for_tilt_angle_{optimal_south_tilt_angle}.npy')
             GTI = GTI_S[1,:].reshape(365,24,60)
+            # n = int(n/2)
         else:
             GTI_EW = np.load(project_dir+\
                         f'/effective_irradiance/Output_data/total_irradiance_per_angle/total_irradiance_for_tilt_angle_{optimal_east_west_tilt_angle}.npy')
@@ -126,7 +128,7 @@ def run_power_modeling(Flat_roof_case,Battery_case,Southern_orientation_case,dyn
     if EV_case == 1:
         #Build EV load profile
         EV_load_array = np.zeros((365,96))
-        charge_time = np.floor(EV_average_energy_consumption*EV_average_distance_traveled_per_day/P_bat_EV_charge_max).astype(int)*4
+        charge_time = np.ceil(EV_average_energy_consumption*EV_average_distance_traveled_per_day/P_bat_EV_charge_max).astype(int)*4
         EV_load_array[:,EV_average_home_arrival_time_index:EV_average_home_arrival_time_index+charge_time] = P_bat_EV_charge_max*1000 #W
         EV_load_array = EV_load_array.reshape(365*96)
         P_load_array = P_load_array + EV_load_array
@@ -171,6 +173,7 @@ def run_power_modeling(Flat_roof_case,Battery_case,Southern_orientation_case,dyn
 
     # split 3: 2^3
     if not Battery_case:
+        P_inverter[P_inverter>=P_inverter_max] = P_inverter_max
         P_difference = P_load_array - P_inverter_array
         P_offtake_array = np.maximum(P_difference,0)
         P_injection_array = -np.minimum(P_difference,0)
@@ -339,3 +342,109 @@ def run_power_modeling(Flat_roof_case,Battery_case,Southern_orientation_case,dyn
     E_battery = E_battery_array.reshape(365,96)
 
     return P_offtake, P_injection, P_direct_consumption, P_inverter, P_load, E_battery
+
+def plot_power_modeling_one_day(day,P_load_day,P_inverter_day,P_offtake_day,E_battery_day):
+    x = [i*4 for i in range(24)]
+    l = ["%s:00"%i for i in range(24)]
+
+    fig, ax = plt.subplots(3,1, figsize=(10, 8))
+    ax1 = ax[0]
+    ax2 = ax[1]
+    ax3 = ax[2]
+
+    plt.suptitle(f'Power modeling for day {day}', fontsize = 15)
+    ax1.set_title("Demand and generation", fontsize = 15)
+    ax1.plot(P_load_day, label='load demand')
+    ax1.plot(P_inverter_day, label='Generation at AC inverter side')
+    ax1.set_xticks([])
+    ax1.set_xlabel('')
+    ax1.set_xticks(x,l, fontsize=10, rotation=45)
+    ax1.set_ylabel('Power [W]', fontsize = 15)
+    ax1.tick_params(labelsize = 10)
+    ax1.legend(frameon=False)
+
+    ax2.set_title("Offtake and injection", fontsize = 15)
+    ax2.plot(P_offtake_day, label='offtake')
+    ax2.plot(P_injection_day, label='injection')
+    # ax2.set_xticks([])
+    # ax2.set_xlabel('')
+    ax2.set_xticks(x,l, fontsize=10, rotation=45)
+    ax2.set_ylabel('Power [W]', fontsize = 15)
+    ax2.tick_params(labelsize = 10)
+    ax2.legend(frameon=False)
+
+    ax3.set_title("Battery charging", fontsize = 15)
+    ax3.plot(E_battery_day, label='Battery charging state')
+    ax3.set_xticks(x,l, fontsize=10, rotation=45)
+    ax3.set_ylabel('E [kWh]', fontsize = 15)
+    ax3.tick_params(labelsize = 10)
+    ax3.set_xlabel("Time (hh:mm)", fontsize = 15)
+    ax3.legend(frameon=False)
+    plt.subplots_adjust(hspace=0.5)
+    # plt.tight_layout()
+
+    output_file_path = f'Output_data/figures/new/non_battery_case/plot_power_modeling_one_day_{day}_new'
+    # plt.savefig(output_file_path)
+    # plt.show()
+
+Flat_roof_case = True
+Battery_case = True
+Southern_orientation_case = True
+dynamic_tarrif_case = True
+EV_case = 1
+
+PV_data = {}
+PV_data['l_panel_option'] = 2.278
+PV_data['w_panel_option'] = 1.134
+PV_data['P_PV_peak_option'] = 550
+PV_data['eta_cell_option'] = 0.213
+PV_data['beta_ref_option'] = -0.0034
+PV_data['PV_price_option'] = 212
+PV_data['PV_lifetime_option'] = 25
+
+#hybrid
+Inverter_data = {}
+Inverter_data['eta_inverter_option'] = 0.95
+Inverter_data['P_inverter_max_option'] = 6000
+Inverter_data['inverter_price_option'] = 3000
+Inverter_data['inverter_lifetime_option'] = 15
+
+#non-hybrid
+# Inverter_data['eta_inverter_option'] = 0.95
+# Inverter_data['P_inverter_max_option'] = 4000
+# Inverter_data['inverter_price_option'] = 2300
+# Inverter_data['inverter_lifetime_option'] = 15
+
+Battery_data = {}
+Battery_data['P_bat_charge_max_option'] = 1280
+Battery_data['P_bat_discharge_max_option'] = 1280
+Battery_data['E_bat_max_option'] = 0.64
+Battery_data['eta_bat_option'] = 0.92
+Battery_data['battery_price_option'] = 565
+Battery_data['battery_lifetime_option'] = 15
+
+EV_data = {}
+#case 1
+EV_data['EV average distance traveled per day'] = 23*2+20
+EV_data['EV average energy consumption'] =  0.187
+EV_average_home_arrival_time = datetime(2018, 1, 1, 17, 0)
+EV_data['EV average home arrival time index'] = (EV_average_home_arrival_time.hour)*4-1
+EV_average_home_departure_time = datetime(2018, 1, 1, 8, 0)
+EV_data['EV average home departure time index'] = (EV_average_home_departure_time.hour)*4-1
+EV_data['Max charge speed convertor'] = 7.6
+EV_data['Convertor efficiency'] = 0.98*0.96
+EV_data['Max battery capacity'] = 103
+
+P_offtake, P_injection, P_direct_consumption, P_inverter, P_load, E_battery =\
+    run_power_modeling(Flat_roof_case,Battery_case,Southern_orientation_case,dynamic_tarrif_case,EV_case,PV_data,Inverter_data,Battery_data,EV_data)
+
+
+# for day in random.sample(range(365), 30):
+# # for day in [124]:
+#     P_offtake_day = P_offtake[day,:]
+#     P_injection_day = P_injection[day,:]
+#     P_direct_consumption_day = P_direct_consumption[day,:]
+#     P_inverter_day = P_inverter[day,:]
+#     P_load_day = P_load[day,:]
+#     E_battery_day = E_battery[day,:]
+#     plot_power_modeling_one_day(day,P_load_day,P_inverter_day,P_offtake_day,E_battery_day)
